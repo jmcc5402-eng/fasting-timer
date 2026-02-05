@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Anthropic from '@anthropic-ai/sdk'
 
-const DURATION = 10 // 1 hour in seconds
+const DURATION = 3600 // 1 hour in seconds
 
 const anthropic = new Anthropic({
   apiKey: import.meta.env.VITE_ANTHROPIC_API_KEY,
