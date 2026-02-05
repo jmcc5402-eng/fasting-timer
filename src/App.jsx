@@ -1,6 +1,12 @@
 import { useState, useEffect } from 'react'
+import Anthropic from '@anthropic-ai/sdk'
 
 const DURATION = 10 // 1 hour in seconds
+
+const anthropic = new Anthropic({
+  apiKey: import.meta.env.VITE_ANTHROPIC_API_KEY,
+  dangerouslyAllowBrowser: true,
+})
 
 function formatTime(seconds) {
   const m = Math.floor(seconds / 60)
@@ -12,6 +18,8 @@ export default function App() {
   const [state, setState] = useState('idle') // 'idle' | 'running' | 'done'
   const [endTime, setEndTime] = useState(null)
   const [timeLeft, setTimeLeft] = useState(DURATION)
+  const [encouragement, setEncouragement] = useState(null)
+  const [isLoadingMessage, setIsLoadingMessage] = useState(false)
 
   useEffect(() => {
     if (state !== 'running') return
@@ -41,12 +49,41 @@ export default function App() {
     setState('idle')
     setEndTime(null)
     setTimeLeft(DURATION)
+    setEncouragement(null)
   }
 
   function handleRestart() {
     setState('idle')
     setEndTime(null)
     setTimeLeft(DURATION)
+    setEncouragement(null)
+  }
+
+  async function handleAddHour() {
+    // Add 1 hour (3600 seconds) to the timer
+    setEndTime(prev => prev + 3600 * 1000)
+
+    // Fetch encouraging message from Claude
+    setIsLoadingMessage(true)
+    try {
+      const response = await anthropic.messages.create({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 100,
+        messages: [
+          {
+            role: 'user',
+            content: 'Generate a short, witty, encouraging message (1-2 sentences) for someone who just decided to extend their fast by one more hour. Be playful and supportive. Just give the message, no quotes or extra formatting.',
+          },
+        ],
+      })
+      const message = response.content[0].text
+      setEncouragement(message)
+    } catch (error) {
+      console.error('Failed to fetch encouragement:', error)
+      setEncouragement("You've got this! One more hour is nothing for a fasting champion like you.")
+    } finally {
+      setIsLoadingMessage(false)
+    }
   }
 
   return (
@@ -67,6 +104,24 @@ export default function App() {
           <p className="text-7xl font-mono font-light text-stone-800 tabular-nums">
             {formatTime(timeLeft)}
           </p>
+
+          <button
+            onClick={handleAddHour}
+            disabled={isLoadingMessage}
+            className="px-6 py-3 rounded-full bg-stone-800 text-stone-100 font-medium
+                       shadow-lg hover:shadow-xl active:scale-95 hover:scale-105
+                       transition-all duration-200 cursor-pointer
+                       disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+          >
+            {isLoadingMessage ? 'Adding...' : 'Add One More Hour'}
+          </button>
+
+          {encouragement && (
+            <p className="max-w-md text-center text-stone-600 text-lg italic animate-[fadeIn_0.5s_ease-out]">
+              "{encouragement}"
+            </p>
+          )}
+
           <button
             onClick={handleCancel}
             className="text-stone-400 hover:text-stone-600 text-sm tracking-wide

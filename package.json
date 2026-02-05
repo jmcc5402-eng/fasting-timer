@@ -9,13 +9,14 @@
     "preview": "node node_modules/vite/bin/vite.js preview"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.73.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
     "@vitejs/plugin-react": "^4.3.4",
-    "vite": "^6.0.0",
     "tailwindcss": "^4.0.0",
-    "@tailwindcss/vite": "^4.0.0"
+    "vite": "^6.0.0"
   }
 }
