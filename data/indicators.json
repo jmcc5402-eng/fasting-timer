@@ -11,6 +11,7 @@
     { "id": "rol-06", "dimension": "rule_of_law", "form": "action",    "severity": "moderate", "repeatable": false, "text": "Curtail habeas corpus or core due-process guarantees." },
     { "id": "rol-07", "dimension": "rule_of_law", "form": "action",    "severity": "micro",    "repeatable": true,  "text": "Condition a single court's budget or appointments to pressure it." },
     { "id": "rol-08", "dimension": "rule_of_law", "form": "action",    "severity": "minor",    "repeatable": true,  "text": "Publicly threaten a specific judge over a pending ruling." },
+    { "id": "rol-09", "dimension": "rule_of_law", "form": "action",    "severity": "severe",   "repeatable": true,  "text": "Purge or strip the professional licenses of lawyers, judges, or independent officials to remove legal checks or punish critics." },
 
     { "id": "ele-01", "dimension": "electoral", "form": "condition", "severity": "extreme",  "repeatable": false, "text": "No competitive national election for the head of power exists." },
     { "id": "ele-02", "dimension": "electoral", "form": "action",    "severity": "extreme",  "repeatable": false, "text": "Abolish or indefinitely postpone elections." },
