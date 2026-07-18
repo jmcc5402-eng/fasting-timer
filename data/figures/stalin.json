@@ -1,0 +1,130 @@
+{
+  "id": "stalin",
+  "name": "Joseph Stalin",
+  "score_version": "1.0.0",
+  "meta": {
+    "country": "Soviet Union",
+    "region": "Europe / Asia",
+    "era": "1922-1953",
+    "window": "Spotlight 1934-1939 (consolidation & the Great Terror). Standing 'condition' indicators reflect the one-party state across 1922-1953.",
+    "lean": "communist / far-left",
+    "summary": "Joseph Stalin led the Soviet Union as its de facto dictator from the late 1920s until his death in 1953, ruling through a one-party state, the secret police, and the Gulag forced-labor system. His rule featured mass extrajudicial killing (the Great Terror), the man-made Holodomor famine, wholesale deportation of ethnic nationalities, and total state control of courts, elections, and the press. He also oversaw rapid industrialization and the Soviet victory in World War II."
+  },
+  "editor_note": "Score anchored to the 1934-1939 Great Terror window to mirror the live method's granular, dated actions; the six 'condition' indicators establish the standing level of his one-party rule. Because his most extreme actions saturate every dimension, including or excluding items just outside the window does not move the tier. Contested figures (famine death tolls, intent) are flagged medium/low confidence.",
+  "scored_actions": [
+    { "indicator_id": "rol-01", "date": "1922-1953", "note": "Courts and the Procuracy were fully subordinate to the Communist Party; no independent judicial review of executive or party action existed.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Great Purge — History & Facts", "url": "https://www.britannica.com/event/Great-Purge", "publisher": "Encyclopaedia Britannica" },
+        { "title": "Moscow trials", "url": "https://en.wikipedia.org/wiki/Moscow_trials", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "rol-05", "date": "1934-1938", "note": "Political cases were routed from ordinary courts to extrajudicial NKVD 'troikas' and the Military Collegium; Order 00447 (30 Jul 1937) empowered troikas to sentence outside the courts.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "NKVD troika", "url": "https://en.wikipedia.org/wiki/NKVD_troika", "publisher": "Wikipedia" },
+        { "title": "NKVD Order No. 00447", "url": "https://en.wikipedia.org/wiki/NKVD_Order_No._00447", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "rol-06", "date": "1934", "note": "The decree of 1 December 1934 (after Kirov's murder) abolished due-process guarantees for 'terrorism' cases: no defense counsel, no appeal, sentences executed immediately.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Great Purge", "url": "https://en.wikipedia.org/wiki/Great_Purge", "publisher": "Wikipedia" },
+        { "title": "NKVD troika", "url": "https://en.wikipedia.org/wiki/NKVD_troika", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "ele-01", "date": "1922-1953", "note": "One-party state; no competitive national election for the head of power existed. The 1937 Supreme Soviet elections ran a single pre-approved candidate per district.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "1937 Soviet Union legislative election", "url": "https://en.wikipedia.org/wiki/1937_Soviet_Union_legislative_election", "publisher": "Wikipedia" },
+        { "title": "Elections in the Soviet Union", "url": "https://en.wikipedia.org/wiki/Elections_in_the_Soviet_Union", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "ele-04", "date": "1927-1929", "note": "Organized opposition factions were banned and their leaders expelled: the United (Left) Opposition expelled 1927, Trotsky exiled 1928-29; the Right Opposition removed 1929.", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "Leon Trotsky", "url": "https://en.wikipedia.org/wiki/Leon_Trotsky", "publisher": "Wikipedia" },
+        { "title": "Joseph Stalin — Lenin's successor", "url": "https://www.britannica.com/biography/Joseph-Stalin/Lenins-successor", "publisher": "Encyclopaedia Britannica" }
+      ] },
+    { "indicator_id": "prs-01", "date": "1922-1953", "note": "No independent mass media existed; all print, radio, and publishing were state/party-controlled, with Pravda and Izvestia as party organs.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Censorship in the Soviet Union", "url": "https://en.wikipedia.org/wiki/Censorship_in_the_Soviet_Union", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "prs-04", "date": "1922-1953", "note": "Glavlit (est. 1922) imposed compulsory pre-publication censorship of all printed matter, with censors embedded in publishing houses.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Censorship in the Soviet Union", "url": "https://en.wikipedia.org/wiki/Censorship_in_the_Soviet_Union", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "prs-03", "date": "1936-1938", "note": "Editors and journalists who published unapproved material were subject to arrest, execution, or the Gulag during the Great Purge for alleged 'Trotskyist' sympathies.", "count": 1, "confidence": "low",
+      "sources": [
+        { "title": "Censorship in the Soviet Union", "url": "https://en.wikipedia.org/wiki/Censorship_in_the_Soviet_Union", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "civ-01", "date": "1932-1953", "note": "The internal passport/propiska system (1932) tied movement to state permission; freedom of assembly did not exist outside state-organized events.", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "Population transfer in the Soviet Union", "url": "https://en.wikipedia.org/wiki/Population_transfer_in_the_Soviet_Union", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "civ-02", "date": "1937-1938", "note": "Mass detention of civilians without trial: over 1.5 million arrested during the Great Terror; the Gulag held millions in forced-labor camps.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Gulag", "url": "https://www.britannica.com/place/Gulag", "publisher": "Encyclopaedia Britannica" },
+        { "title": "Stalin, torture, and the Great Terror", "url": "https://blog.oup.com/2018/01/stalin-torture-great-terror/", "publisher": "Oxford University Press (OUPblog)" }
+      ] },
+    { "indicator_id": "civ-05", "date": "1927-1953", "note": "Article 58 of the RSFSR Penal Code criminalized a broad category of 'counter-revolutionary' / 'anti-Soviet agitation,' used to imprison ordinary citizens for dissent.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Moscow trials", "url": "https://en.wikipedia.org/wiki/Moscow_trials", "publisher": "Wikipedia" },
+        { "title": "Great Purge", "url": "https://en.wikipedia.org/wiki/Great_Purge", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "chk-01", "date": "1922-1953", "note": "Neither the Supreme Soviet (a rubber-stamp body) nor the courts could constrain Stalin and the Politburo; power ran through the party apparatus.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Joseph Stalin", "url": "https://www.britannica.com/biography/Joseph-Stalin", "publisher": "Encyclopaedia Britannica" },
+        { "title": "Elections in the Soviet Union", "url": "https://en.wikipedia.org/wiki/Elections_in_the_Soviet_Union", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "chk-03", "date": "1934-1953", "note": "Governance ran by Politburo/Presidium and Sovnarkom decree rather than legislative deliberation; e.g. the 1 Dec 1934 anti-terror decree was an executive act bypassing the legislature.", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "Great Purge", "url": "https://en.wikipedia.org/wiki/Great_Purge", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "chk-06", "date": "1943-1944", "note": "The central executive dissolved autonomous ethnic republics during the deportations, abolishing the Chechen-Ingush, Crimean, and Volga German ASSRs and absorbing their territory.", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "Deportation of the Chechens and Ingush", "url": "https://en.wikipedia.org/wiki/Deportation_of_the_Chechens_and_Ingush", "publisher": "Wikipedia" },
+        { "title": "Population transfer in the Soviet Union", "url": "https://en.wikipedia.org/wiki/Population_transfer_in_the_Soviet_Union", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "int-01", "date": "1922-1953", "note": "The state routinely imprisoned and executed people for political reasons via the NKVD, troikas, and Gulag over the whole period.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Gulag", "url": "https://www.britannica.com/place/Gulag", "publisher": "Encyclopaedia Britannica" },
+        { "title": "Mass Crimes under Stalin (1930-1953)", "url": "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/mass-crimes-under-stalin-1930-1953.html", "publisher": "Sciences Po — Mass Violence & Resistance" }
+      ] },
+    { "indicator_id": "int-02", "date": "1932-1944", "note": "Systematic violence against defined groups: the Holodomor famine in Ukraine (1932-33), the deportation of entire nationalities (1943-44), and NKVD 'national operations' (e.g. the Polish Operation, Order 00485).", "count": 3, "confidence": "medium",
+      "sources": [
+        { "title": "Holodomor — Facts, Definition, & Death Toll", "url": "https://www.britannica.com/event/Holodomor", "publisher": "Encyclopaedia Britannica" },
+        { "title": "Deportation of the Crimean Tatars", "url": "https://en.wikipedia.org/wiki/Deportation_of_the_Crimean_Tatars", "publisher": "Wikipedia" },
+        { "title": "Punished peoples: the mass deportations of the 1940s", "url": "https://www.unhcr.org/us/publications/unhcr-publication-cis-conference-displacement-cis-punished-peoples-mass-deportations", "publisher": "UNHCR" }
+      ] },
+    { "indicator_id": "int-03", "date": "1937-1938", "note": "Extrajudicial killings on a mass scale: under NKVD Order 00447 alone, over 767,000 were condemned and c. 387,000 shot by troikas without trial.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "The NKVD Mass Secret Operation no. 00447", "url": "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/nkvd-mass-secret-operation-n-00447-august-1937-november-1938.html", "publisher": "Sciences Po — Mass Violence & Resistance" },
+        { "title": "NKVD Order No. 00447", "url": "https://en.wikipedia.org/wiki/NKVD_Order_No._00447", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "int-04", "date": "1936-1938", "note": "Political rivals imprisoned and executed: Zinoviev and Kamenev (Trial of the Sixteen, 1936) and Bukharin and Rykov (Trial of the Twenty-One, 1938) were tried and shot.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Moscow trials", "url": "https://en.wikipedia.org/wiki/Moscow_trials", "publisher": "Wikipedia" },
+        { "title": "Great Purge — History & Facts", "url": "https://www.britannica.com/event/Great-Purge", "publisher": "Encyclopaedia Britannica" }
+      ] },
+    { "indicator_id": "int-05", "date": "1937-1939", "note": "Torture in state detention was formally authorized: Stalin's telegram of 10 Jan 1939 confirmed the Central Committee had permitted 'physical measures of persuasion' in NKVD interrogations since 1937.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "On Applying Physical Pressure to Prisoners (Stalin telegram, 10 Jan 1939)", "url": "https://www.marxists.org/reference/archive/stalin/works/1939/01/10.htm", "publisher": "Marxists Internet Archive (primary document)" },
+        { "title": "Stalin, torture, and the Great Terror", "url": "https://blog.oup.com/2018/01/stalin-torture-great-terror/", "publisher": "Oxford University Press (OUPblog)" }
+      ] },
+    { "indicator_id": "int-06", "date": "1929-1932", "note": "Leon Trotsky was expelled from the USSR to Turkey in 1929 and stripped of Soviet citizenship on 20 February 1932, forced into permanent statelessness and exile.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Leon Trotsky", "url": "https://en.wikipedia.org/wiki/Leon_Trotsky", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "int-07", "date": "1936-1938", "note": "The Moscow show trials were fabricated selective prosecutions of Old Bolshevik rivals, with confessions extracted by torture and psychological pressure.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Moscow trials", "url": "https://en.wikipedia.org/wiki/Moscow_trials", "publisher": "Wikipedia" }
+      ] }
+  ],
+  "competence": {
+    "rating": 82,
+    "wins": [
+      "Used the General Secretary post (from 1922) to out-maneuver Trotsky, Zinoviev, Kamenev, and Bukharin and win the succession struggle by 1929.",
+      "The Great Purge (1936-38) physically eliminated every potential rival, leaving him unchallenged until his death in 1953.",
+      "Forced industrialization via the Five-Year Plans built the heavy-industry and military base that helped the USSR survive WWII.",
+      "Led the USSR to victory over Nazi Germany and extended Soviet control across Eastern Europe, becoming a postwar superpower."
+    ],
+    "failures": [
+      "Forced collectivization and the resulting 1932-33 famine killed millions and permanently crippled Soviet agriculture.",
+      "The 1939 Nazi-Soviet Pact and refusal to heed invasion warnings left the USSR catastrophically exposed to Operation Barbarossa in 1941.",
+      "The 1937 purge of the Red Army officer corps gutted military leadership on the eve of war, contributing to disastrous early defeats.",
+      "Rule by terror and a cult of personality built no durable institutions or succession plan, producing instability after his death."
+    ]
+  }
+}

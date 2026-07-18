@@ -1,0 +1,89 @@
+{
+  "id": "peron",
+  "name": "Juan Perón",
+  "score_version": "1.0.0",
+  "meta": {
+    "country": "Argentina",
+    "region": "South America",
+    "era": "1946-1955",
+    "window": "First two presidencies, 1946-1955. Won genuinely competitive elections (1946, 1951); erosions accumulated across the term.",
+    "lean": "populist (Peronism); not cleanly left/right",
+    "summary": "Juan Perón won the 1946 and 1951 presidential elections in genuinely competitive contests, backed by organized labor and, from 1947, newly enfranchised women, and pursued broadly popular labor and social-welfare policies. Once in office, however, he progressively bent institutions: packing the Supreme Court, expropriating independent media such as La Prensa, jailing opposition leader Ricardo Balbin under contempt laws, and ruling under an extra-constitutional 'state of internal war' after 1951. A hybrid case in which democratic mandates coexisted with documented, incremental erosion of judicial, press, and civil-liberties safeguards."
+  },
+  "editor_note": "Anchored to his elected presidencies to test the hybrid end of the scale. The researcher deliberately did not score an opposition-party ban (the dissolved Labour Party was Peron's own ally) or rule-by-decree (he governed with a real, Peronist-dominated Congress). Several matches are flagged medium confidence and are the pressure points for the symmetry test.",
+  "scored_actions": [
+    { "indicator_id": "rol-03", "date": "1946-1947", "note": "The Peronist majority impeached and removed four of five Supreme Court justices plus the Attorney General, leaving a court tailored to the executive.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Argentina's Abandonment of the Rule of Law and Its Aftermath", "url": "https://journals.library.wustl.edu/lawpolicy/article/1396/galley/18231/view/", "publisher": "Washington University Journal of Law & Policy" },
+        { "title": "Supreme Court of Argentina", "url": "https://en.wikipedia.org/wiki/Argentine_Supreme_Court", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "ele-03", "date": "1949", "note": "The 1949 constitutional reform (16 Dec 1949) removed the bar on immediate presidential re-election, enabling Peron to run again and win in 1951; annulled after 1955.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Argentine Constitution of 1949", "url": "https://en.wikipedia.org/wiki/Argentine_Constitution_of_1949", "publisher": "Wikipedia" },
+        { "title": "Constitutional Change as a Means to Consolidate Power: Argentina 1949", "url": "https://www.cambridge.org/core/books/abs/making-constitutions/constitutional-change-as-a-means-to-consolidate-power-argentina-1949/E3D5B53BFA6699969C29622637E5DA7C", "publisher": "Cambridge University Press" }
+      ] },
+    { "indicator_id": "prs-02", "date": "1951", "note": "Congress expropriated the leading independent daily La Prensa in April 1951 after a Peronist newsvendors' strike; other papers (e.g. La Nueva Provincia, 1950) were likewise seized.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Argentina: The Burial of La Prensa (1951)", "url": "https://time.com/archive/6886231/argentina-the-burial-of-la-prensa/", "publisher": "TIME" },
+        { "title": "La Prensa (Buenos Aires)", "url": "https://en.wikipedia.org/wiki/La_Prensa_(Buenos_Aires)", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "prs-05", "date": "1951", "note": "The expropriated La Prensa was handed to the Peronist labor confederation (CGT), converting a critical outlet into allied ownership; returned to its owners after 1955.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Argentina: The Burial of La Prensa (1951)", "url": "https://time.com/archive/6886231/argentina-the-burial-of-la-prensa/", "publisher": "TIME" },
+        { "title": "The Fourth Enemy: Journalism and Power in the Making of Peronist Argentina", "url": "https://www.psupress.org/books/titles/978-0-271-04876-5.html", "publisher": "Penn State University Press" }
+      ] },
+    { "indicator_id": "prs-01", "date": "1946-1951", "note": "Through strikes, economic pressure, and expropriations Peron consolidated most of the press and all broadcast chains into a quasi-state media system, leaving little independent mass media.", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "The Fourth Enemy: Journalism and Power in the Making of Peronist Argentina", "url": "https://www.psupress.org/books/titles/978-0-271-04876-5.html", "publisher": "Penn State University Press" },
+        { "title": "History of Censorship in Argentina", "url": "https://www.ebsco.com/research-starters/history/history-censorship-argentina", "publisher": "EBSCO Research Starters" }
+      ] },
+    { "indicator_id": "civ-05", "date": "1949-1955", "note": "The 'ley de desacato' (contempt/insult law) was used to sanction and prosecute critics of Peron and Evita, criminalizing a broad category of political dissent.", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "Juan Peron", "url": "https://en.wikipedia.org/wiki/Juan_Per%C3%B3n", "publisher": "Wikipedia" },
+        { "title": "El sistema penal durante el primer peronismo (1946-1955)", "url": "https://www.raco.cat/index.php/BoletinAmericanista/article/download/99423/160110", "publisher": "Boletin Americanista (academic)" }
+      ] },
+    { "indicator_id": "int-04", "date": "1950", "note": "Principal opposition (UCR) leader Ricardo Balbin had his parliamentary immunity stripped (1949), was arrested and sentenced to prison for desacato, and held until Peron's 1951 pardon.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Ricardo Balbin", "url": "https://en.wikipedia.org/wiki/Ricardo_Balb%C3%ADn", "publisher": "Wikipedia" },
+        { "title": "12 de marzo de 1950: Ricardo Balbin es arrestado", "url": "https://cultura.legislatura.gob.ar/cultura_posts/12-de-marzo-de-1950-ricardo-balbin-es-arrestado668.html", "publisher": "Legislatura de la Ciudad de Buenos Aires" }
+      ] },
+    { "indicator_id": "int-07", "date": "1949-1950", "note": "Balbin faced roughly a dozen accumulated desacato prosecutions and over 297 days' detention without a final sentence, a selective legal campaign to sideline the leading opposition figure.", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "El dia que Ricardo Balbin fue condenado a prision por desacato", "url": "https://www.nuevospapeles.com/nota/el-dia-que-ricardo-balbin-fue-condenado-prision-por-desacato", "publisher": "Nuevos Papeles" },
+        { "title": "Ricardo Balbin", "url": "https://en.wikipedia.org/wiki/Ricardo_Balb%C3%ADn", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "int-05", "date": "1948-1955", "note": "Labour leader Cipriano Reyes and other detained opponents were tortured; a police detention center in Buenos Aires reportedly became a site of routine torture.", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "Cipriano Reyes", "url": "https://en.wikipedia.org/wiki/Cipriano_Reyes", "publisher": "Wikipedia" },
+        { "title": "Juan Peron", "url": "https://en.wikipedia.org/wiki/Juan_Per%C3%B3n", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "civ-03", "date": "1951-1955", "note": "After the Sept 1951 coup attempt Peron decreed a 'state of internal war' (estado de guerra interno) that stayed in force until 1955, suspending ordinary civil-rights protections.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Sobre antiperonismo y radicalizacion politica: el estado de guerra interno (1951-1955)", "url": "https://www.scielo.org.ar/scielo.php?pid=S1851-28792020000300139&script=sci_arttext&tlng=es", "publisher": "SciELO Argentina" },
+        { "title": "Juan Peron", "url": "https://en.wikipedia.org/wiki/Juan_Per%C3%B3n", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "chk-04", "date": "1951", "note": "The declared 'state of internal war' was not a figure provided for in the 1949 constitution Peron had reformed, an emergency power invoked beyond its lawful basis.", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "Sobre antiperonismo y radicalizacion politica: el estado de guerra interno (1951-1955)", "url": "https://www.scielo.org.ar/scielo.php?pid=S1851-28792020000300139&script=sci_arttext&tlng=es", "publisher": "SciELO Argentina" }
+      ] },
+    { "indicator_id": "civ-02", "date": "1951-1955", "note": "Under the state of internal war, people were arrested for indeterminate periods and held 'at the disposition of the Executive Power' without being brought before a judge.", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "Sobre antiperonismo y radicalizacion politica: el estado de guerra interno (1951-1955)", "url": "https://www.scielo.org.ar/scielo.php?pid=S1851-28792020000300139&script=sci_arttext&tlng=es", "publisher": "SciELO Argentina" }
+      ] }
+  ],
+  "competence": {
+    "rating": 67,
+    "wins": [
+      "Won genuinely competitive elections in 1946 and 1951 and built a mass movement (Peronism) that has shaped Argentine politics ever since.",
+      "Enacted female suffrage (1947) and mobilized women voters through Eva Peron, expanding his electoral base for 1951.",
+      "Used the 1949 constitutional reform to lift the immediate re-election bar, securing a lawful path to a second term.",
+      "Neutralized institutional checks by packing the Supreme Court (1947) and consolidating the press into a pro-government system."
+    ],
+    "failures": [
+      "Picked a ruinous fight with the Catholic Church in 1954-55, alienating a pillar of society and catalyzing his fall.",
+      "Economic overreach exhausted reserves and forced austerity by the early 1950s, eroding his worker base.",
+      "Failed to secure military loyalty; the 1955 Revolucion Libertadora overthrew him and drove him into 18 years of exile.",
+      "Deepened polarization so severely that the post-1955 regime banned Peronism outright, destabilizing Argentina for decades."
+    ]
+  }
+}
