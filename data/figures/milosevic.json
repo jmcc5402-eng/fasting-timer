@@ -1,0 +1,57 @@
+{
+  "id": "milosevic",
+  "name": "Slobodan Milošević",
+  "score_version": "1.0.0",
+  "meta": {
+    "country": "Serbia / FR Yugoslavia",
+    "region": "Europe",
+    "era": "1989-2000",
+    "window": "1989-2000, from the revocation of provincial autonomy to the September 2000 election he lost.",
+    "lean": "nationalist / post-communist populist",
+    "summary": "Slobodan Milosevic rose to power legitimately, winning Serbia's first multiparty presidential election in December 1990 and re-election in 1992, and competitive multiparty elections continued throughout his rule. He nonetheless eroded democratic institutions incrementally — capturing state television, annulling opposition electoral victories, jailing and fining independent journalists, and using police against demonstrators. He was ultimately removed after trying to falsify the September 2000 federal election he had actually lost, and was later tried at the ICTY for state-directed violence in Kosovo."
+  },
+  "editor_note": "The elected-then-eroded HYBRID template — the closest historical rhyme to modern backsliding, and the model future news events will map onto. Per matching discipline the researcher did NOT fire the prs-01 or rol-01 extremes: Serbia kept a real (harassed) independent-media sector and courts that occasionally ruled against the regime, so those domains were dominated, not near-totally captured. ele-06 fires for the attempt to reverse the 2000 result. int-02 rests on the ICTY indictment and co-accused convictions (his own trial ended without verdict at his 2006 death).",
+  "scored_actions": [
+    { "indicator_id": "chk-06", "date": "1989-03", "note": "In March 1989 Milosevic's Serbia forced constitutional amendments stripping the autonomous provinces of Kosovo and Vojvodina of control over police, courts, education, and language, centralizing their powers in Belgrade.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Autonomy Abolished: How Milosevic Launched Kosovo's Descent into War", "url": "https://balkaninsight.com/2020/03/23/autonomy-abolished-how-milosevic-launched-kosovos-descent-into-war/", "publisher": "Balkan Insight" }, { "title": "Slobodan Milosevic", "url": "https://www.britannica.com/biography/Slobodan-Milosevic", "publisher": "Encyclopaedia Britannica" } ] },
+    { "indicator_id": "ele-05", "date": "1996-11", "note": "After the Zajedno opposition won 32 municipalities including Belgrade in the Nov 1996 local elections, regime-controlled electoral commissions and courts annulled the results; the OSCE confirmed the opposition had in fact won.", "count": 2, "confidence": "high",
+      "sources": [ { "title": "1996 Serbian local elections", "url": "https://en.wikipedia.org/wiki/1996_Serbian_local_elections", "publisher": "Wikipedia" }, { "title": "Serbians win reinstatement of elected opposition members, 1996-1997", "url": "https://nvdatabase.swarthmore.edu/content/serbians-win-reinstatement-elected-opposition-members-1996-1997", "publisher": "Global Nonviolent Action Database (Swarthmore)" } ] },
+    { "indicator_id": "ele-06", "date": "2000-09-24", "note": "Kostunica won the 24 Sept 2000 first round outright, but Milosevic's Federal Election Commission denied him a majority to force a runoff and the Constitutional Court annulled the vote; he refused to concede until the 5 Oct 2000 uprising.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Overthrow of Slobodan Milošević", "url": "https://en.wikipedia.org/wiki/Overthrow_of_Slobodan_Milo%C5%A1evi%C4%87", "publisher": "Wikipedia" }, { "title": "Timeline: The Bulldozer Revolution", "url": "https://balkaninsight.com/2010/10/05/timeline-the-bulldozer-revolution/", "publisher": "Balkan Insight" } ] },
+    { "indicator_id": "prs-02", "date": "1996-12", "note": "Authorities cut Radio B92 off the air (a ~52-hour shutdown in Dec 1996 during the protests) and in May 2000 seized the opposition-run Studio B TV along with B92's premises and transmitter.", "count": 2, "confidence": "high",
+      "sources": [ { "title": "Serbia: the beginning and end of Radio B92", "url": "https://www.balcanicaucaso.org/en/cp_article/serbia-the-beginning-and-end-of-radio-b92/", "publisher": "Osservatorio Balcani Caucaso" }, { "title": "Attacks on the Press 2000: Yugoslavia", "url": "https://cpj.org/2001/03/attacks-on-the-press-2000-yugoslavia/", "publisher": "Committee to Protect Journalists" } ] },
+    { "indicator_id": "prs-06", "date": "1998-10", "note": "The October 1998 Law on Public Information empowered the state to levy crippling fines on outlets accused of spreading 'fear, panic and defeatism'; independent papers such as Dnevni Telegraf, Danas, and Blic were repeatedly fined.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Deepening Authoritarianism in Serbia", "url": "https://www.hrw.org/reports/1999/serbia/Serbia99-02.htm", "publisher": "Human Rights Watch" } ] },
+    { "indicator_id": "prs-03", "date": "1998-03", "note": "In March 1998 independent newspaper editors were charged with disseminating misinformation for calling Albanians killed in Kosovo 'people' rather than 'terrorists'; publishers were prosecuted and jailed for non-payment of Public Information Law fines.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Deepening Authoritarianism in Serbia", "url": "https://www.hrw.org/reports/1999/serbia/Serbia99-02.htm", "publisher": "Human Rights Watch" } ] },
+    { "indicator_id": "prs-07", "date": "1998", "note": "From 1998 the regime withheld broadcast licenses from independent electronic media and manipulated frequency allocation to limit their reach while state RTS dominated the airwaves.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "The suppression of independent journalism", "url": "https://www.hrw.org/reports/2000/serbia/Yugsrb00-05.htm", "publisher": "Human Rights Watch" } ] },
+    { "indicator_id": "prs-04", "date": "1999-03", "note": "Under the state of war declared during the March-June 1999 NATO bombing, the regime imposed wartime censorship and shut independent outlets, banning rebroadcast of foreign news.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Attacks on the Press 1999: Yugoslavia", "url": "https://cpj.org/2000/03/attacks-on-the-press-1999-yugoslavia/", "publisher": "Committee to Protect Journalists" } ] },
+    { "indicator_id": "civ-04", "date": "1997-02-02", "note": "On the night of 2-3 Feb 1997 riot police violently broke up a peaceful opposition march in Belgrade, injuring at least 50 protesters and arresting dozens during the Zajedno demonstrations.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "50 Injured As Police Break Up Belgrade Protest", "url": "https://www.washingtonpost.com/archive/politics/1997/02/03/50-injured-as-police-break-up-belgrade-protest/da5fe28b-a275-4843-834a-278a3638c622/", "publisher": "The Washington Post" } ] },
+    { "indicator_id": "civ-05", "date": "2000", "note": "The regime publicly branded the nonviolent youth movement Otpor a 'terrorist' organization, criminalizing its pro-democracy activism as a category of dissent.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Escalating Repression in Serbia: Harassment of the Otpor Movement", "url": "https://www.hrw.org/report/2000/05/24/escalating-repression-serbia-update-harassment-otpor-resistance-movement", "publisher": "Human Rights Watch" } ] },
+    { "indicator_id": "civ-07", "date": "2000-05", "note": "Between May and Sept 2000 police arrested more than 2,000 Otpor activists (plus ~400 opposition members and ~100 NGO activists), many detained repeatedly for short periods to disrupt the anti-Milosevic campaign.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Police Crackdown on Otpor — Serbia, 2 May to 24 September 2000", "url": "https://www.hlc-rdc.org/en/public-information/reports-informisanje/police-crackdown-on-otpor-serbia-2-may-to-24-september-2000/", "publisher": "Humanitarian Law Center" } ] },
+    { "indicator_id": "int-02", "date": "1999", "note": "ICTY charged Milosevic over a Jan-June 1999 joint criminal enterprise in which FRY and Serbian forces forcibly deported roughly 800,000 Kosovo Albanians; his own trial ended without verdict at his 2006 death, but co-accused (Milutinovic et al., 2009) were convicted for the state-directed campaign.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Prosecution Case — Kosovo", "url": "https://www.icty.org/en/content/prosecution-case-kosovo", "publisher": "ICTY" }, { "title": "Milosevic Kosovo Indictment (24 May 1999)", "url": "https://www.icty.org/x/cases/slobodan_milosevic/ind/en/mil-ii990524e.htm", "publisher": "ICTY" } ] },
+    { "indicator_id": "int-03", "date": "1999-01-15", "note": "Serbian police/FRY forces killed some 45 Kosovo Albanian civilians at Racak on 15 Jan 1999 (charged by the ICTY); on 11 Apr 1999 opposition editor Slavko Curuvija was assassinated in Belgrade in a killing linked to state security.", "count": 2, "confidence": "medium",
+      "sources": [ { "title": "Prosecution Case — Kosovo (Racak)", "url": "https://www.icty.org/en/content/prosecution-case-kosovo", "publisher": "ICTY" }, { "title": "Slavko Curuvija", "url": "https://cpj.org/data/people/slavko-curuvija/", "publisher": "Committee to Protect Journalists" } ] }
+  ],
+  "competence": {
+    "rating": 62,
+    "wins": [
+      "Turned control of RTS state television into a dominant propaganda organ that shaped mass opinion for most Serbs through the 1990s.",
+      "Rode Serb nationalism (1989 revocation of Kosovo/Vojvodina autonomy) to genuine electoral wins in 1990 and 1992.",
+      "Sidestepped Serbian presidential term limits in 1997 by having the federal parliament install him as Yugoslav president.",
+      "Defused the 1996-97 winter protests by conceding the annulled local results while giving up no central power, buying three more years."
+    ],
+    "failures": [
+      "Attempting to steal the Sept 2000 first-round result triggered the general strike and the 5 October uprising that toppled him.",
+      "The 1999 Kosovo crackdown brought NATO bombing, an ICTY war-crimes indictment while still in office, and pariah status.",
+      "Branding Otpor 'terrorists' and mass-arresting 2,000+ activists backfired, energizing the youth movement behind the opposition.",
+      "Persistent media repression fed rather than silenced an independent-media ecosystem that helped mobilize his ouster."
+    ]
+  }
+}

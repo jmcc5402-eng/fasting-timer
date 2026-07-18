@@ -1,0 +1,57 @@
+{
+  "id": "louis-xiv",
+  "name": "Louis XIV",
+  "score_version": "1.0.0",
+  "meta": {
+    "country": "France",
+    "region": "Europe",
+    "era": "1643-1715 (personal rule from 1661)",
+    "window": "Personal rule, 1661-1715.",
+    "lean": "absolute monarchy / divine-right",
+    "summary": "Louis XIV ruled France personally from 1661 to 1715, consolidating power in the crown under a divine-right theory of absolute monarchy without convening the Estates-General and after curbing the parlements' capacity to constrain royal legislation. His reign combined major state-building and cultural achievement with systematic religious persecution — including the dragonnades and the 1685 revocation of the Edict of Nantes — pre-publication censorship, imprisonment without trial by lettres de cachet, and the suppression of the Jansenists at Port-Royal. Sustained warfare and the loss of the Huguenots left the state fiscally exhausted by his death."
+  },
+  "editor_note": "The MONARCHY TEST for our level-vs-change design: an absolute monarch never 'removed' elections or a legislature because none constrained him — so the standing 'condition' indicators carry his LEVEL, flagged medium confidence with explicit anachronism notes. Specific dated ACTIONS (revocation of the Edict of Nantes, lettres de cachet, censorship) sit on top. This is inherited/standing concentration of power scored honestly.",
+  "scored_actions": [
+    { "indicator_id": "ele-01", "date": "1661-1715", "note": "ANACHRONISM: no elections existed in 17th-c. France; Louis held the throne by hereditary divine-right succession with no competitive selection for the head of power — a standing condition, not a modern electoral system.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Louis XIV", "url": "https://www.britannica.com/biography/Louis-XIV-king-of-France", "publisher": "Encyclopaedia Britannica" } ] },
+    { "indicator_id": "chk-01", "date": "1661-1715", "note": "The Estates-General was not convened once during his reign (not summoned 1614-1789), and no legislature or independent judiciary could constrain the crown — a standing condition of unchecked executive power.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Parlement", "url": "https://en.wikipedia.org/wiki/Parlement", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "rol-01", "date": "1661-1715", "note": "No independent judicial review of royal acts existed: the parlements' remonstrance power was curbed and lettres de cachet enabled imprisonment outside any court — a standing condition of the absolutist state.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Lettre de cachet", "url": "https://www.encyclopedia.com/history/modern-europe/french-history/lettre-de-cachet", "publisher": "Encyclopedia.com" } ] },
+    { "indicator_id": "prs-01", "date": "1667-1715", "note": "No independent press existed: Colbert limited licensed presses in 1667 and from 1699 the crown imposed royal authority over all pre-publication censorship. ANACHRONISM: 'mass media' predates the era; matched on state monopoly of print.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Censorship in the Ancien Régime", "url": "https://en.wikipedia.org/wiki/Censorship_in_the_Ancien_R%C3%A9gime", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "int-01", "date": "1661-1715", "note": "The crown routinely imprisoned individuals for political and religious reasons via lettres de cachet — warrants ordering indefinite imprisonment 'at the pleasure of the monarch' without charge or trial.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Lettres de cachet", "url": "https://en.wikipedia.org/wiki/Lettres_de_cachet", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "civ-01", "date": "1685-1715", "note": "After the 1685 Edict of Fontainebleau, Protestant worship and assembly were outlawed and Huguenot emigration formally banned, so movement and assembly required (and were denied) state sanction. ANACHRONISM: no general right of assembly existed.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Edict of Fontainebleau", "url": "https://en.wikipedia.org/wiki/Edict_of_Fontainebleau", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "int-02", "date": "1681-1685", "note": "The dragonnades (from 1681) forcibly quartered dragoons in Huguenot homes, using looting, abuse, and violence to coerce conversion, culminating in the 1685 revocation of the Edict of Nantes — systematic state violence targeting a religious group; 300,000-400,000 were coerced into conversion.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Dragonnades", "url": "https://www.britannica.com/topic/dragonnades", "publisher": "Encyclopaedia Britannica" } ] },
+    { "indicator_id": "civ-05", "date": "1685-10-18", "note": "The Edict of Fontainebleau (18 Oct 1685) criminalized the Protestant faith: it outlawed Huguenot churches and schools and ordered newborns baptized Catholic, making a broad category of religious dissent illegal.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Edict of Fontainebleau", "url": "https://en.wikipedia.org/wiki/Edict_of_Fontainebleau", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "prs-04", "date": "1667-1701", "note": "The regime imposed prior restraint on all printing: every manuscript required royal approbation from state-appointed censors before publication, with banned texts confiscated and printers fined or imprisoned.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Censorship in the Ancien Régime", "url": "https://en.wikipedia.org/wiki/Censorship_in_the_Ancien_R%C3%A9gime", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "rol-06", "date": "1661-1715", "note": "Lettres de cachet curtailed core due process: they authorized arrest, indefinite detention, exile, or confinement without charge, hearing, evidence, or trial, and with no legal recourse.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Lettre de cachet", "url": "https://www.encyclopedia.com/history/modern-europe/french-history/lettre-de-cachet", "publisher": "Encyclopedia.com" } ] },
+    { "indicator_id": "rol-04", "date": "1673", "note": "By the 1667-1673 restrictions (notably 1673), Louis required the parlements to register royal edicts before issuing remonstrances, stripping them of power to review or block royal legislation. ANACHRONISM: parlements were sovereign law courts, not modern courts.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Parlement", "url": "https://en.wikipedia.org/wiki/Parlement", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "civ-04", "date": "1709-10-29", "note": "Suppression of the Jansenists: on 29 Oct 1709 the lieutenant-general of police used ~300 armed archers to forcibly disperse and deport the remaining nuns of Port-Royal-des-Champs; the abbey was razed in 1710-11.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Port-Royal Abbey, Paris", "url": "https://en.wikipedia.org/wiki/Port-Royal_Abbey,_Paris", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "int-04", "date": "1661-1664", "note": "Louis had his powerful finance superintendent Nicolas Fouquet arrested (5 Sep 1661) as a rival; when the special court sentenced only banishment (1664), the king overrode it to impose life imprisonment at Pignerol, where Fouquet died in 1680.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Nicolas Fouquet", "url": "https://www.britannica.com/biography/Nicolas-Fouquet", "publisher": "Encyclopaedia Britannica" } ] }
+  ],
+  "competence": {
+    "rating": 63,
+    "wins": [
+      "Centralized the French state: bypassed the great nobility, ruled without a first minister, and built a professional royal bureaucracy of intendants.",
+      "Colbert's mercantilist reforms expanded manufacturing, trade companies, the navy, and state revenue.",
+      "Made France the dominant military and cultural power of Europe with a standing professional army and Vauban's fortifications.",
+      "Made his court at Versailles the political and artistic center of Europe, institutionalizing royal prestige."
+    ],
+    "failures": [
+      "Revocation of the Edict of Nantes (1685) drove ~200,000 skilled Huguenots into exile, damaging the economy and France's standing.",
+      "Decades of costly wars exhausted the treasury and left France near-bankrupt.",
+      "The famines of 1693-94 and 1709 amid war caused mass mortality the state failed to relieve.",
+      "Left an over-centralized system dependent on the monarch and a fiscal crisis that burdened his successors."
+    ]
+  }
+}

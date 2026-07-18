@@ -1,0 +1,135 @@
+{
+  "id": "hitler",
+  "name": "Adolf Hitler",
+  "score_version": "1.0.0",
+  "meta": {
+    "country": "Germany",
+    "region": "Europe",
+    "era": "1933-1945",
+    "window": "Spotlight on the 1933-1936 consolidation (Reichstag Fire Decree, Enabling Act, Gleichschaltung, Nuremberg Laws); the Holocaust (1941-45) is scored under Personal Integrity, dated.",
+    "lean": "fascist / far-right",
+    "summary": "Adolf Hitler became German chancellor on 30 January 1933 and, using the Reichstag Fire Decree and the Enabling Act, converted a democratic republic into a one-party dictatorship within eighteen months through Gleichschaltung. His regime abolished independent courts, press, unions, and elections, built the Gestapo and concentration-camp system, and stripped Jews of citizenship under the 1935 Nuremberg Laws. From 1939 to 1945 the regime prosecuted the Second World War in Europe and perpetrated the Holocaust, the genocide of roughly six million Jews, before its total defeat and Hitler's suicide in 1945."
+  },
+  "editor_note": "Six condition/extreme indicators fire because each domain was near-totally captured by the mid-1930s, the paradigm case these conditions describe. Deliberately omitted over-fires: ele-02 (sham single-list ballots continued rather than being abolished), chk-02 (Reichstag neutered, not permanently dissolved).",
+  "scored_actions": [
+    { "indicator_id": "chk-03", "date": "1933-03-24", "note": "The Enabling Act (23 March 1933) let Hitler's cabinet enact laws by decree without the Reichstag or president for four years.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "The Enabling Act", "url": "https://encyclopedia.ushmm.org/content/en/article/the-enabling-act", "publisher": "USHMM Holocaust Encyclopedia" },
+        { "title": "Enabling Act, 1933", "url": "https://www.britannica.com/topic/Enabling-Act", "publisher": "Encyclopaedia Britannica" }
+      ] },
+    { "indicator_id": "chk-04", "date": "1933-02-28", "note": "The Reichstag Fire Decree invoked Article 48 emergency powers indefinitely, suspending constitutional protections; never lifted, it remained in force until 1945.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Reichstag Fire Decree", "url": "https://encyclopedia.ushmm.org/content/en/article/reichstag-fire-decree", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "chk-06", "date": "1934-01-30", "note": "The Law for the Reconstruction of the Reich abolished the state (Land) parliaments and transferred their powers to the central government.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Law for the Reconstruction of the Reich (1934)", "url": "https://www.britannica.com/topic/Law-for-the-Reconstruction-of-the-Reich", "publisher": "Encyclopaedia Britannica" }
+      ] },
+    { "indicator_id": "chk-01", "date": "1934-08-02", "note": "After the Enabling Act, Gleichschaltung, and Hitler's merger of chancellor and president, neither the rubber-stamp Reichstag nor the courts could constrain the executive.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Law and Justice in the Third Reich", "url": "https://encyclopedia.ushmm.org/content/en/article/law-and-justice-in-the-third-reich", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "rol-06", "date": "1933-02-28", "note": "The Reichstag Fire Decree suspended due-process guarantees, giving police the basis for 'protective custody' (Schutzhaft) without charge or judicial review.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Reichstag Fire Decree", "url": "https://encyclopedia.ushmm.org/content/en/article/reichstag-fire-decree", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "rol-03", "date": "1933-04-07", "note": "The Law for the Restoration of the Professional Civil Service purged Jewish and politically 'unreliable' judges and officials from the judiciary.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Law and Justice in the Third Reich", "url": "https://encyclopedia.ushmm.org/content/en/article/law-and-justice-in-the-third-reich", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "rol-05", "date": "1934-04-24", "note": "Hitler created the People's Court (Volksgerichtshof) as a loyal special tribunal for treason cases, with politically reliable judges and no appeal.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Law and Justice in the Third Reich", "url": "https://encyclopedia.ushmm.org/content/en/article/law-and-justice-in-the-third-reich", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "rol-04", "date": "1936-02-10", "note": "The Gestapo Law of 10 February 1936 provided that orders of the secret state police 'are not subject to review by the administrative courts.'", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "The Gestapo: Overview", "url": "https://encyclopedia.ushmm.org/content/en/article/gestapo", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "rol-01", "date": "1936-02-10", "note": "With the Gestapo exempted from court review and executive detention beyond judicial reach, no independent judicial check on executive action remained.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Law and Justice in the Third Reich", "url": "https://encyclopedia.ushmm.org/content/en/article/law-and-justice-in-the-third-reich", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "ele-04", "date": "1933-06-22", "note": "The KPD's mandates were annulled after the February 1933 fire, and the SPD was banned nationwide on 22 June 1933; both were the regime's major opposition parties.", "count": 2, "confidence": "high",
+      "sources": [
+        { "title": "Law against the Founding of New Parties", "url": "https://encyclopedia.ushmm.org/content/en/article/law-against-the-founding-of-new-parties", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "ele-01", "date": "1933-07-14", "note": "The Law Against the Formation of New Parties made the NSDAP the sole legal party; thereafter only single-list ballots and plebiscites were held.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Law against the Founding of New Parties", "url": "https://encyclopedia.ushmm.org/content/en/article/law-against-the-founding-of-new-parties", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "prs-04", "date": "1933-10-04", "note": "The Editors Law put journalism under state control via the Reich Press Chamber and required editors to omit anything 'calculated to weaken' the Reich.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "The Press in the Third Reich", "url": "https://encyclopedia.ushmm.org/content/en/article/the-press-in-the-third-reich", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "prs-02", "date": "1933-03", "note": "The regime banned and seized the Social Democratic and Communist press in early 1933, and the Nazi-owned Eher Verlag progressively absorbed the independent press.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "The Press in the Third Reich", "url": "https://encyclopedia.ushmm.org/content/en/article/the-press-in-the-third-reich", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "prs-03", "date": "1933-02-28", "note": "Pacifist journalist Carl von Ossietzky was arrested the night of the Reichstag fire and imprisoned in concentration camps for his reporting; he won the 1935 Nobel Peace Prize while detained.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "The Press in the Third Reich", "url": "https://encyclopedia.ushmm.org/content/en/article/the-press-in-the-third-reich", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "prs-01", "date": "1935", "note": "By the mid-1930s the Reich Press Chamber, Editors Law, and Propaganda Ministry left no independent mass media; information was state-controlled.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "The Press in the Third Reich", "url": "https://encyclopedia.ushmm.org/content/en/article/the-press-in-the-third-reich", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "civ-03", "date": "1933-02-28", "note": "The Reichstag Fire Decree declared a de facto permanent state of emergency, suspending assembly, speech, press, association, and privacy of mail.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Reichstag Fire Decree", "url": "https://encyclopedia.ushmm.org/content/en/article/reichstag-fire-decree", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "civ-02", "date": "1933-03-22", "note": "The regime detained civilians en masse without trial under Schutzhaft, opening Dachau on 22 March 1933; ~30,000 Jewish men were seized after Kristallnacht (Nov 1938).", "count": 2, "confidence": "high",
+      "sources": [
+        { "title": "Dachau", "url": "https://encyclopedia.ushmm.org/content/en/article/dachau", "publisher": "USHMM Holocaust Encyclopedia" },
+        { "title": "Kristallnacht", "url": "https://encyclopedia.ushmm.org/content/en/article/kristallnacht", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "civ-05", "date": "1933-07-14", "note": "Forming or supporting any non-Nazi party was criminalized with imprisonment, broadly criminalizing organized political dissent.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Law against the Founding of New Parties", "url": "https://encyclopedia.ushmm.org/content/en/article/law-against-the-founding-of-new-parties", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "civ-01", "date": "1933-02-28", "note": "With assembly and association suspended by the Fire Decree and enforced by the SA, SS, and Gestapo, opposition gatherings were routinely banned.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Reichstag Fire Decree", "url": "https://encyclopedia.ushmm.org/content/en/article/reichstag-fire-decree", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "int-04", "date": "1933-03-03", "note": "KPD leader and former presidential candidate Ernst Thälmann was arrested on 3 March 1933 and held without trial for over a decade until his execution at Buchenwald in 1944.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Ernst Thälmann", "url": "https://www.britannica.com/biography/Ernst-Thalmann", "publisher": "Encyclopaedia Britannica" }
+      ] },
+    { "indicator_id": "int-03", "date": "1934-06-30", "note": "In the Night of the Long Knives (30 June-2 July 1934) the SS extrajudicially shot SA chief Ernst Röhm and other perceived rivals; scholarly estimates run to 150-200+.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Röhm Purge", "url": "https://encyclopedia.ushmm.org/content/en/article/roehm-purge", "publisher": "USHMM Holocaust Encyclopedia" },
+        { "title": "Night of the Long Knives", "url": "https://www.britannica.com/event/Night-of-the-Long-Knives", "publisher": "Encyclopaedia Britannica" }
+      ] },
+    { "indicator_id": "int-05", "date": "1933", "note": "Torture of prisoners in Gestapo detention and early concentration camps such as Dachau was routine from 1933 onward.", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "The Gestapo: Overview", "url": "https://encyclopedia.ushmm.org/content/en/article/gestapo", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "int-06", "date": "1935-09-15", "note": "The Reich Citizenship Law (Nuremberg Laws, 15 Sept 1935) revoked the citizenship of Jews, reducing more than 500,000 people to stateless 'subjects.'", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "The Nuremberg Race Laws", "url": "https://encyclopedia.ushmm.org/content/en/article/the-nuremberg-race-laws", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "int-01", "date": "1934", "note": "Through the Gestapo, the concentration-camp system, and the People's Court (which condemned over 5,000 to death), the state routinely imprisoned and killed for political reasons.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Law and Justice in the Third Reich", "url": "https://encyclopedia.ushmm.org/content/en/article/law-and-justice-in-the-third-reich", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] },
+    { "indicator_id": "int-02", "date": "1941-1945", "note": "Nazi Germany carried out the Holocaust, the systematic genocide of roughly six million Jews (USHMM estimate), alongside mass murder of Roma, disabled people, and others; the Kristallnacht pogrom (Nov 1938) prefigured this state violence.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Documenting Numbers of Victims of the Holocaust", "url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution", "publisher": "USHMM Holocaust Encyclopedia" },
+        { "title": "Introduction to the Holocaust", "url": "https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust", "publisher": "USHMM Holocaust Encyclopedia" }
+      ] }
+  ],
+  "competence": {
+    "rating": 38,
+    "wins": [
+      "Weaponized the Reichstag fire into the Fire Decree and Enabling Act, legally dismantling Weimar checks within weeks.",
+      "The Night of the Long Knives (1934) eliminated SA rival Röhm and secured army loyalty, letting him become Führer.",
+      "Gleichschaltung banned rival parties and unions and abolished state parliaments, producing a one-party state by mid-1933.",
+      "Built the Goebbels propaganda and Gestapo apparatus that monopolized information and suppressed dissent."
+    ],
+    "failures": [
+      "Invading the USSR in 1941 (Operation Barbarossa) opened a catastrophic two-front war.",
+      "Gratuitously declaring war on the United States in December 1941 mobilized overwhelming industrial power against him.",
+      "No-retreat orders (e.g., Stalingrad, 1942-43) destroyed entire armies for ideological reasons.",
+      "The genocidal total-war project ended in complete defeat, occupation, and his 1945 suicide — the regime lasted 12 years."
+    ]
+  }
+}

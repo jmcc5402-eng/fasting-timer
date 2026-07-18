@@ -1,0 +1,67 @@
+{
+  "id": "franco",
+  "name": "Francisco Franco",
+  "score_version": "1.0.0",
+  "meta": {
+    "country": "Spain",
+    "region": "Europe",
+    "era": "1939-1975",
+    "window": "Post-civil-war consolidation, 1939-1959 (single-party state, Law of Political Responsibilities, White Terror, press censorship).",
+    "lean": "nationalist / authoritarian right",
+    "summary": "After winning the Spanish Civil War, Francisco Franco governed Spain as an unelected head of state atop a single-party state (FET y de las JONS), with no competitive elections, state-controlled press, and a legislature and judiciary unable to check him. During the 1939-1959 consolidation, the regime prosecuted an estimated half-million people under the 1939 Law of Political Responsibilities and carried out mass executions and imprisonment of Republicans. Post-war death tolls remain historically contested, ranging from roughly 30,000 to 150,000 or more."
+  },
+  "editor_note": "A durability/effectiveness case: high competence despite extreme repression. Death-toll-dependent indicators (int-02, int-03, civ-02) flagged medium per matching discipline.",
+  "scored_actions": [
+    { "indicator_id": "rol-01", "date": "1939-1959", "note": "No independent judicial review constrained Franco; as caudillo and head of state for life he held supreme executive, legislative, and de facto judicial authority.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Francoist Spain", "url": "https://en.wikipedia.org/wiki/Francoist_Spain", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "rol-05", "date": "1939-1940", "note": "The Law of Political Responsibilities (1939) created special tribunals, and the 1940 Law for the Suppression of Freemasonry and Communism established a dedicated repression tribunal, routing political cases to loyal special jurisdictions.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Law of Political Responsibilities", "url": "https://en.wikipedia.org/wiki/Law_of_Political_Responsibilities", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "rol-06", "date": "1939-1948", "note": "Republicans were tried by summary military war-councils under the state of war, denying core due-process guarantees to hundreds of thousands of defendants.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Francoist Spain", "url": "https://en.wikipedia.org/wiki/Francoist_Spain", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "ele-01", "date": "1939-1959", "note": "No competitive national election for the head of power existed; Franco ruled unelected and the 1947 Law of Succession named him Head of State for life.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Law of Succession to the Headship of the State", "url": "https://en.wikipedia.org/wiki/Law_of_Succession_to_the_Headship_of_the_State", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "ele-04", "date": "1937-04-19", "note": "The Unification Decree merged Falangists and Carlists into FET y de las JONS as the sole legal party and dissolved all others, a ban sustained throughout the window.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Unification Decree (Spain, 1937)", "url": "https://en.wikipedia.org/wiki/Unification_Decree_(Spain,_1937)", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "prs-01", "date": "1939-1959", "note": "No independent mass media operated; the state controlled the press through censorship boards and appointment of editors until the 1966 Fraga law.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Press Law (1938)", "url": "https://www.tutor2u.net/history/topics/press-law-1938", "publisher": "tutor2u" } ] },
+    { "indicator_id": "prs-04", "date": "1938-04-22", "note": "The 1938 Press Law imposed prior state censorship on all publications and empowered the government to shut newspapers and dismiss journalists.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Press Law (1938)", "url": "https://www.tutor2u.net/history/topics/press-law-1938", "publisher": "tutor2u" } ] },
+    { "indicator_id": "civ-01", "date": "1939-1959", "note": "Free assembly, association, and strikes were banned; independent unions were abolished and replaced by the state vertical syndicate.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Francoist Spain", "url": "https://en.wikipedia.org/wiki/Francoist_Spain", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "civ-02", "date": "1939-1940", "note": "More than 270,000 people were imprisoned by the end of 1939 and roughly 280,000 political prisoners were held by 1940 in overcrowded prisons and camps.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Law of Political Responsibilities", "url": "https://en.wikipedia.org/wiki/Law_of_Political_Responsibilities", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "civ-03", "date": "1936-1948", "note": "The state of war (martial law) declared in 1936 was maintained until 1948, suspending civil rights and subjecting civilians to military jurisdiction.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Francoist Spain", "url": "https://en.wikipedia.org/wiki/Francoist_Spain", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "civ-05", "date": "1939-1940", "note": "The Law of Political Responsibilities criminalized any support for the Republic (retroactive to 1934), and the 1940 anti-Masonry/Communism law criminalized broad categories of dissent.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Law of Political Responsibilities", "url": "https://en.wikipedia.org/wiki/Law_of_Political_Responsibilities", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "chk-01", "date": "1939-1959", "note": "No legislature or judiciary could constrain the executive; the Cortes created in 1942 was an appointed, corporative body with no power to check Franco.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Francoist Spain", "url": "https://en.wikipedia.org/wiki/Francoist_Spain", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "chk-03", "date": "1939-08-08", "note": "The Law of 8 August 1939 concentrated legislative authority in Franco, empowering him to issue decrees with force of law without any parliamentary body.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Francoist Spain", "url": "https://en.wikipedia.org/wiki/Francoist_Spain", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "int-01", "date": "1939-1959", "note": "The state routinely imprisoned and executed for political reasons; the Law of Political Responsibilities alone saw an estimated half-million people prosecuted.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "Law of Political Responsibilities", "url": "https://en.wikipedia.org/wiki/Law_of_Political_Responsibilities", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "int-02", "date": "1939-1945", "note": "The post-war White Terror was systematic violence targeting Republicans, leftists, unionists, and Basque/Catalan nationalists; executions are contested, from ~30,000 to ~150,000.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "White Terror (Spain)", "url": "https://en.wikipedia.org/wiki/White_Terror_(Spain)", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "int-03", "date": "1939-1945", "note": "Mass executions and forced disappearances of Republicans filled mass graves across Spain; death-toll estimates are disputed.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "White Terror (Spain)", "url": "https://en.wikipedia.org/wiki/White_Terror_(Spain)", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "int-04", "date": "1940-10-15", "note": "Lluís Companys, President of the Catalan Generalitat, was arrested, tried by military tribunal, and executed on 15 October 1940 — a leading political rival killed.", "count": 1, "confidence": "high",
+      "sources": [ { "title": "White Terror (Spain)", "url": "https://en.wikipedia.org/wiki/White_Terror_(Spain)", "publisher": "Wikipedia" } ] },
+    { "indicator_id": "int-05", "date": "1939-1959", "note": "Torture of detainees in police and prison custody was widely documented as part of the regime's post-war repression apparatus.", "count": 1, "confidence": "medium",
+      "sources": [ { "title": "Francoist Spain", "url": "https://en.wikipedia.org/wiki/Francoist_Spain", "publisher": "Wikipedia" } ] }
+  ],
+  "competence": {
+    "rating": 82,
+    "wins": [
+      "Fused rival Falangist and Carlist factions into one controlled party (Unification Decree 1937), denying rivals an independent base.",
+      "Balanced the regime's 'families' (army, Church, Falange, monarchists) so none could dominate him.",
+      "Pivoted from Axis-leaning neutrality to Cold War anti-communism, winning US alliance via the 1953 Pact of Madrid.",
+      "Institutionalized his own permanence with the 1947 Law of Succession, making himself Head of State for life."
+    ],
+    "failures": [
+      "1940s autarky produced stagnation and the 'years of hunger,' forcing the corrective 1959 Stabilization Plan.",
+      "Early diplomatic isolation, including UN exclusion in 1946, left Spain internationally shunned for years.",
+      "Mass repression entrenched durable grievances that fed a persistent clandestine resistance.",
+      "Built the regime so tightly around his person that it was rapidly dismantled into democracy after his 1975 death."
+    ]
+  }
+}

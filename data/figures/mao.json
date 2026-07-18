@@ -1,0 +1,102 @@
+{
+  "id": "mao",
+  "name": "Mao Zedong",
+  "score_version": "1.0.0",
+  "meta": {
+    "country": "China",
+    "region": "Asia",
+    "era": "1949-1976",
+    "window": "Spotlight on consolidation 1949-1957 (land-reform tribunals, the campaign to suppress counterrevolutionaries, the 1957 Anti-Rightist Campaign); Cultural Revolution purges 1966-1976 included for the relevant dimensions.",
+    "lean": "communist / far-left",
+    "summary": "Mao Zedong led the People's Republic of China from its founding in 1949 until his death in 1976 as chairman of a one-party Communist state with no competitive elections, independent courts, or free press. His consolidation featured land-reform tribunals, the campaign to suppress counterrevolutionaries, and the 1957 Anti-Rightist Campaign, while the Cultural Revolution (1966-76) purged rivals such as Liu Shaoqi and Peng Dehuai. The Great Leap Forward famine (1959-61) killed tens of millions and is treated here as a policy catastrophe rather than documented targeted violence, given contested evidence on intent."
+  },
+  "editor_note": "Per matching discipline, the Great Leap famine is placed in competence-failures, not scored as int-02 targeted violence (intent contested). int-02 fires instead for the clearly class-targeted land-reform and zhenfan executions. The six condition/extreme indicators fire because those domains were near-totally captured under one-party rule.",
+  "scored_actions": [
+    { "indicator_id": "rol-01", "date": "1949-1976", "note": "Courts were subordinate to the CCP; public-security organs imposed punishments such as re-education through labor (laojiao, 1957) with no independent judicial review.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Re-education through labor", "url": "https://en.wikipedia.org/wiki/Re-education_through_labor", "publisher": "Wikipedia" },
+        { "title": "Reeducation Through Labor in China", "url": "https://www.hrw.org/legacy/campaigns/china-98/laojiao.htm", "publisher": "Human Rights Watch" }
+      ] },
+    { "indicator_id": "rol-05", "date": "1950-1953", "note": "Land-reform 'people's tribunals' tried and sentenced landlords through struggle sessions outside the regular court system.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Land Reform Movement", "url": "https://en.wikipedia.org/wiki/Land_Reform_Movement", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "rol-06", "date": "1957-08-01", "note": "State Council provisions on re-education through labor let public-security organs impose up to 3-4 years' administrative detention without trial, bypassing due process.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Re-education through labor", "url": "https://en.wikipedia.org/wiki/Re-education_through_labor", "publisher": "Wikipedia" },
+        { "title": "Reeducation Through Labor in China", "url": "https://www.hrw.org/legacy/campaigns/china-98/laojiao.htm", "publisher": "Human Rights Watch" }
+      ] },
+    { "indicator_id": "ele-01", "date": "1949-1976", "note": "No competitive national election for the head of power existed; the CCP held a one-party monopoly and the National People's Congress was indirectly selected and non-competitive.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Mao Zedong", "url": "https://www.britannica.com/biography/Mao-Zedong", "publisher": "Encyclopaedia Britannica" }
+      ] },
+    { "indicator_id": "prs-01", "date": "1949-1976", "note": "All mass media were controlled by the CCP Central Propaganda Department; privately owned media were swept away and outlets served as instruments of 'class struggle.'", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Sixty years of news media and censorship", "url": "https://rsf.org/en/sixty-years-news-media-and-censorship", "publisher": "Reporters Without Borders" },
+        { "title": "PR China — Press and Religion in the 1950s", "url": "http://www.chinaknowledge.de/History/PRC/prc-event-pressandreligion1950s.html", "publisher": "ChinaKnowledge.de" }
+      ] },
+    { "indicator_id": "prs-02", "date": "1949-1953", "note": "Privately owned and independent newspapers were eliminated/nationalized after the CCP took power, leaving only party-state organs such as People's Daily.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Sixty years of news media and censorship", "url": "https://rsf.org/en/sixty-years-news-media-and-censorship", "publisher": "Reporters Without Borders" }
+      ] },
+    { "indicator_id": "prs-03", "date": "1957", "note": "In the Anti-Rightist Campaign journalists were among the intellectuals branded 'rightists' and jailed or exiled to labor camps for their published criticism.", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "Anti-Rightist Campaign", "url": "https://en.wikipedia.org/wiki/Anti-Rightist_Campaign", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "civ-01", "date": "1949-1976", "note": "Assembly, expression, and internal movement required state approval (enforced via the hukou system and pervasive political control).", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "Sixty years of news media and censorship", "url": "https://rsf.org/en/sixty-years-news-media-and-censorship", "publisher": "Reporters Without Borders" }
+      ] },
+    { "indicator_id": "civ-02", "date": "1950-1960", "note": "Mass detention without trial: a 1954 official report counted 1,290,000 imprisoned in the zhenfan campaign, and the laojiao camp population reached ~500,000 by 1960.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Campaign to Suppress Counterrevolutionaries", "url": "https://en.wikipedia.org/wiki/Campaign_to_Suppress_Counterrevolutionaries", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "civ-05", "date": "1951", "note": "The 1951 Regulations on Punishing Counter-Revolutionaries criminalized a broad, vaguely defined category of 'counterrevolutionary' speech and activity.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Campaign to Suppress Counterrevolutionaries", "url": "https://en.wikipedia.org/wiki/Campaign_to_Suppress_Counterrevolutionaries", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "chk-01", "date": "1949-1976", "note": "One-party rule left no legislature or judiciary able to constrain the executive; the National People's Congress functioned as a rubber stamp for CCP/Mao decisions.", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Mao Zedong", "url": "https://www.britannica.com/biography/Mao-Zedong", "publisher": "Encyclopaedia Britannica" }
+      ] },
+    { "indicator_id": "int-01", "date": "1949-1976", "note": "The state routinely imprisoned and executed people for political reasons across successive campaigns (zhenfan, Anti-Rightist, Cultural Revolution).", "count": 1, "confidence": "high",
+      "sources": [
+        { "title": "Campaign to Suppress Counterrevolutionaries", "url": "https://en.wikipedia.org/wiki/Campaign_to_Suppress_Counterrevolutionaries", "publisher": "Wikipedia" },
+        { "title": "Cultural Revolution", "url": "https://en.wikipedia.org/wiki/Cultural_Revolution", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "int-02", "date": "1950-1953", "note": "Systematic violence targeting a class/political group: land-reform executions of landlords and the zhenfan campaign, in which an official 1954 report cited 712,000 executed (historians argue the true toll was higher; figures contested).", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "Campaign to Suppress Counterrevolutionaries", "url": "https://en.wikipedia.org/wiki/Campaign_to_Suppress_Counterrevolutionaries", "publisher": "Wikipedia" },
+        { "title": "Land Reform Movement", "url": "https://en.wikipedia.org/wiki/Land_Reform_Movement", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "int-03", "date": "1966-1976", "note": "Extrajudicial killings during the Cultural Revolution (Red Guard violence, local massacres, deaths in unlawful detention); total deaths estimated at 500,000-2 million (contested).", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "Chronology of Mass Killings during the Chinese Cultural Revolution", "url": "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/chronology-mass-killings-during-chinese-cultural-revolution-1966-1976.html", "publisher": "Sciences Po — Mass Violence & Resistance" },
+        { "title": "Cultural Revolution", "url": "https://en.wikipedia.org/wiki/Cultural_Revolution", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "int-04", "date": "1959-1969", "note": "Political rivals imprisoned: Marshal Peng Dehuai purged after the 1959 Lushan Conference; President Liu Shaoqi purged in 1966-68 and died in detention in 1969.", "count": 2, "confidence": "high",
+      "sources": [
+        { "title": "Liu Shaoqi", "url": "https://www.britannica.com/biography/Liu-Shaoqi", "publisher": "Encyclopaedia Britannica" },
+        { "title": "Lushan Conference", "url": "https://en.wikipedia.org/wiki/Lushan_Conference", "publisher": "Wikipedia" }
+      ] },
+    { "indicator_id": "int-05", "date": "1966-1969", "note": "Torture in state detention: Liu Shaoqi was held in solitary confinement and subjected to regular beatings before dying in custody; violent struggle sessions were widespread.", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "Liu Shaoqi", "url": "https://www.britannica.com/biography/Liu-Shaoqi", "publisher": "Encyclopaedia Britannica" }
+      ] }
+  ],
+  "competence": {
+    "rating": 42,
+    "wins": [
+      "Unified mainland China in 1949, ending decades of civil war, warlordism, and foreign occupation.",
+      "Land reform redistributed land to roughly 300 million peasants by 1953.",
+      "Mass literacy and public-health campaigns roughly doubled life expectancy by the mid-1970s.",
+      "Built an independent industrial and defense base; China detonated its first atomic bomb in 1964."
+    ],
+    "failures": [
+      "The Great Leap Forward (1958-62) produced history's deadliest famine, ~30-45 million deaths.",
+      "The Cultural Revolution (1966-76) brought a decade of political chaos, mass purges, and economic disruption.",
+      "The Anti-Rightist Campaign (1957) branded 550,000+ intellectuals as 'rightists,' gutting professional expertise.",
+      "The Hundred Flowers reversal and serial purges destroyed institutional trust and human capital."
+    ]
+  }
+}
