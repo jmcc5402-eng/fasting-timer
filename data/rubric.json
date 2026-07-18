@@ -34,10 +34,11 @@
     "note": "Competence is tracked as its own field and is NEVER folded into the headline number. A highly effective authoritarian is more dangerous, but competence is not itself authoritarian."
   },
   "scoring": {
-    "dimension_score": "Capped additive sum of the points of all triggered indicators in that dimension, clamped to 0-100.",
+    "dimension_score": "Diminishing-returns (noisy-OR) combination of triggered indicators. Each indicator's severity is read as p = points/100, the fraction of the REMAINING freedom in that dimension it removes; independent actions combine as score = 100 * (1 - product(1 - p)). One Severe act lands ~50, two ~68, a true Extreme ~85; a dimension only nears 100 with real breadth. This keeps a few severe actions from saturating the scale and preserves resolution between hybrids and totalitarians.",
     "headline_score": "Equal-weighted mean of the six dimension scores (each 1/6).",
     "level_vs_change": "Each profile carries a baseline LEVEL for each dimension (the current state of checks, via 'condition' indicators) PLUS a dated action log (CHANGE, via 'action' indicators). A stable absolute monarchy reads high-level / flat-trajectory; a backsliding democracy reads lower-level / steep-trajectory.",
-    "incrementalism": "Micro and Minor indicators are marked repeatable so that many small captures accumulate honestly instead of rounding to zero. The math stays linear and pre-committed; accumulation and pattern -- not a subjective 'sneakiness' multiplier -- reveal the danger."
+    "incrementalism": "Micro and Minor indicators are marked repeatable; their factor is applied 'count' times, so many small captures accumulate honestly (with each additional one adding a little less than the last) instead of rounding to zero. Accumulation and pattern -- not a subjective 'sneakiness' multiplier -- reveal the danger.",
+    "matching_discipline": "'Extreme' and 'condition' indicators are reserved for near-total capture of a domain. An action is matched to the severity that would score identically for the opposing faction; where magnitude is smaller, a lower-severity indicator is used. This is the symmetry test applied at match time."
   },
   "review_gate": {
     "symmetry_test": "Before any score is finalized: would this identical action, taken by the opposing faction, score exactly the same? If not, fix the rubric, not the case."

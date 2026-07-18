@@ -10,7 +10,7 @@
     "lean": "populist (Peronism); not cleanly left/right",
     "summary": "Juan Perón won the 1946 and 1951 presidential elections in genuinely competitive contests, backed by organized labor and, from 1947, newly enfranchised women, and pursued broadly popular labor and social-welfare policies. Once in office, however, he progressively bent institutions: packing the Supreme Court, expropriating independent media such as La Prensa, jailing opposition leader Ricardo Balbin under contempt laws, and ruling under an extra-constitutional 'state of internal war' after 1951. A hybrid case in which democratic mandates coexisted with documented, incremental erosion of judicial, press, and civil-liberties safeguards."
   },
-  "editor_note": "Anchored to his elected presidencies to test the hybrid end of the scale. The researcher deliberately did not score an opposition-party ban (the dissolved Labour Party was Peron's own ally) or rule-by-decree (he governed with a real, Peronist-dominated Congress). Several matches are flagged medium confidence and are the pressure points for the symmetry test.",
+  "editor_note": "Anchored to his elected presidencies to test the hybrid end of the scale. The researcher deliberately did not score an opposition-party ban (the dissolved Labour Party was Peron's own ally) or rule-by-decree (he governed with a real, Peronist-dominated Congress). Editorial discipline (v1.1): dropped two over-matched 'extreme' indicators that failed the symmetry test at his magnitude -- prs-01 (independent press was reduced, not eliminated; La Nacion kept publishing) and civ-02 (executive detention under the state of internal war is already captured by civ-03; it was not Great-Terror-scale mass detention). 'Extreme' and 'condition' indicators are reserved for near-total capture.",
   "scored_actions": [
     { "indicator_id": "rol-03", "date": "1946-1947", "note": "The Peronist majority impeached and removed four of five Supreme Court justices plus the Attorney General, leaving a court tailored to the executive.", "count": 1, "confidence": "high",
       "sources": [
@@ -31,11 +31,6 @@
       "sources": [
         { "title": "Argentina: The Burial of La Prensa (1951)", "url": "https://time.com/archive/6886231/argentina-the-burial-of-la-prensa/", "publisher": "TIME" },
         { "title": "The Fourth Enemy: Journalism and Power in the Making of Peronist Argentina", "url": "https://www.psupress.org/books/titles/978-0-271-04876-5.html", "publisher": "Penn State University Press" }
-      ] },
-    { "indicator_id": "prs-01", "date": "1946-1951", "note": "Through strikes, economic pressure, and expropriations Peron consolidated most of the press and all broadcast chains into a quasi-state media system, leaving little independent mass media.", "count": 1, "confidence": "medium",
-      "sources": [
-        { "title": "The Fourth Enemy: Journalism and Power in the Making of Peronist Argentina", "url": "https://www.psupress.org/books/titles/978-0-271-04876-5.html", "publisher": "Penn State University Press" },
-        { "title": "History of Censorship in Argentina", "url": "https://www.ebsco.com/research-starters/history/history-censorship-argentina", "publisher": "EBSCO Research Starters" }
       ] },
     { "indicator_id": "civ-05", "date": "1949-1955", "note": "The 'ley de desacato' (contempt/insult law) was used to sanction and prosecute critics of Peron and Evita, criminalizing a broad category of political dissent.", "count": 1, "confidence": "medium",
       "sources": [
@@ -63,10 +58,6 @@
         { "title": "Juan Peron", "url": "https://en.wikipedia.org/wiki/Juan_Per%C3%B3n", "publisher": "Wikipedia" }
       ] },
     { "indicator_id": "chk-04", "date": "1951", "note": "The declared 'state of internal war' was not a figure provided for in the 1949 constitution Peron had reformed, an emergency power invoked beyond its lawful basis.", "count": 1, "confidence": "medium",
-      "sources": [
-        { "title": "Sobre antiperonismo y radicalizacion politica: el estado de guerra interno (1951-1955)", "url": "https://www.scielo.org.ar/scielo.php?pid=S1851-28792020000300139&script=sci_arttext&tlng=es", "publisher": "SciELO Argentina" }
-      ] },
-    { "indicator_id": "civ-02", "date": "1951-1955", "note": "Under the state of internal war, people were arrested for indeterminate periods and held 'at the disposition of the Executive Power' without being brought before a judge.", "count": 1, "confidence": "medium",
       "sources": [
         { "title": "Sobre antiperonismo y radicalizacion politica: el estado de guerra interno (1951-1955)", "url": "https://www.scielo.org.ar/scielo.php?pid=S1851-28792020000300139&script=sci_arttext&tlng=es", "publisher": "SciELO Argentina" }
       ] }
