@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-07-18",
+  "premise": "The unchecked concentration of power is dangerous regardless of who holds it or what they believe.",
+  "scale": {
+    "min": 0,
+    "max": 100,
+    "direction": "Higher = more unchecked concentration of power."
+  },
+  "tiers": [
+    { "min": 0,  "max": 15,  "name": "Constrained",    "meaning": "Power checked, transfers of power routine." },
+    { "min": 16, "max": 35,  "name": "Eroding",         "meaning": "Checks weakening; warning signs." },
+    { "min": 36, "max": 55,  "name": "Hybrid",          "meaning": "Elections exist but are tilted; power contested." },
+    { "min": 56, "max": 75,  "name": "Authoritarian",   "meaning": "Opposition suppressed; power concentrated." },
+    { "min": 76, "max": 100, "name": "Absolute",        "meaning": "Total control; no meaningful constraint." }
+  ],
+  "dimensions": [
+    { "id": "rule_of_law",      "name": "Rule of Law",              "weight": 0.16667, "desc": "Judicial independence, judicial review, and executive obedience to the courts." },
+    { "id": "electoral",        "name": "Electoral Integrity",      "weight": 0.16667, "desc": "Free and fair elections, term limits, and peaceful transfers of power." },
+    { "id": "press",            "name": "Press & Information",      "weight": 0.16667, "desc": "Media freedom versus censorship or state capture of information." },
+    { "id": "civil_liberties",  "name": "Civil Liberties",         "weight": 0.16667, "desc": "Assembly, protest, movement, and the treatment of dissent." },
+    { "id": "checks",           "name": "Checks on Power",         "weight": 0.16667, "desc": "The legislature, federalism, rule-by-decree, and emergency-power abuse." },
+    { "id": "integrity",        "name": "Personal Integrity Rights","weight": 0.16667, "desc": "Political imprisonment, targeting of groups, and state violence." }
+  ],
+  "severity_levels": [
+    { "id": "micro",    "label": "Micro",    "points": 3,  "meaning": "A sliver of power taken; the subtle, incremental move." },
+    { "id": "minor",    "label": "Minor",    "points": 10, "meaning": "Erosion; reversible, still within the system." },
+    { "id": "moderate", "label": "Moderate", "points": 25, "meaning": "Real damage to a check on power." },
+    { "id": "severe",   "label": "Severe",   "points": 50, "meaning": "A pillar of accountability removed." },
+    { "id": "extreme",  "label": "Extreme",  "points": 85, "meaning": "Total capture of that domain." }
+  ],
+  "competence": {
+    "scored": false,
+    "note": "Competence is tracked as its own field and is NEVER folded into the headline number. A highly effective authoritarian is more dangerous, but competence is not itself authoritarian."
+  },
+  "scoring": {
+    "dimension_score": "Capped additive sum of the points of all triggered indicators in that dimension, clamped to 0-100.",
+    "headline_score": "Equal-weighted mean of the six dimension scores (each 1/6).",
+    "level_vs_change": "Each profile carries a baseline LEVEL for each dimension (the current state of checks, via 'condition' indicators) PLUS a dated action log (CHANGE, via 'action' indicators). A stable absolute monarchy reads high-level / flat-trajectory; a backsliding democracy reads lower-level / steep-trajectory.",
+    "incrementalism": "Micro and Minor indicators are marked repeatable so that many small captures accumulate honestly instead of rounding to zero. The math stays linear and pre-committed; accumulation and pattern -- not a subjective 'sneakiness' multiplier -- reveal the danger."
+  },
+  "review_gate": {
+    "symmetry_test": "Before any score is finalized: would this identical action, taken by the opposing faction, score exactly the same? If not, fix the rubric, not the case."
+  }
+}

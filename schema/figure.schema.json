@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dictator-meter/figure",
+  "title": "Figure profile",
+  "description": "One historical figure/regime. A future LIVE news event reuses the SAME 'scored_action' shape (see live-event hook below) so the live phase plugs in without a rewrite.",
+  "type": "object",
+  "required": ["id", "name", "meta", "scored_actions", "competence"],
+  "properties": {
+    "id":   { "type": "string", "description": "slug, e.g. 'stalin'" },
+    "name": { "type": "string" },
+    "score_version": { "type": "string", "description": "Version of THIS figure's score. Bumped on any change; changes are dated in changelog.json, never edited silently." },
+    "meta": {
+      "type": "object",
+      "required": ["country", "era", "lean"],
+      "properties": {
+        "country": { "type": "string" },
+        "region":  { "type": "string" },
+        "era":     { "type": "string", "description": "e.g. '1922-1943'" },
+        "lean":    { "type": "string", "description": "ideological lean, for the symmetry/balance audit" },
+        "summary": { "type": "string" }
+      }
+    },
+    "scored_actions": {
+      "type": "array",
+      "description": "The reasoning trail. Each entry ties an indicator to a source. This is the unit the LIVE phase emits per news event.",
+      "items": {
+        "type": "object",
+        "required": ["indicator_id", "sources"],
+        "properties": {
+          "indicator_id": { "type": "string", "description": "references data/indicators.json" },
+          "date":  { "type": "string", "description": "when the action occurred (YYYY or YYYY-MM-DD); enables the creep timeline" },
+          "note":  { "type": "string", "description": "one line: the specific act that matched the indicator" },
+          "count": { "type": "integer", "default": 1, "description": "for repeatable indicators" },
+          "confidence": { "type": "string", "enum": ["high", "medium", "low"], "default": "high" },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["title", "url"],
+              "properties": {
+                "title": { "type": "string" },
+                "url":   { "type": "string" },
+                "publisher": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "competence": {
+      "type": "object",
+      "description": "Tracked SEPARATELY; never folded into the authoritarian headline.",
+      "properties": {
+        "rating": { "type": "integer", "minimum": 0, "maximum": 100, "description": "effectiveness at wielding/holding power" },
+        "wins":     { "type": "array", "items": { "type": "string" }, "description": "2-4 major decisions that worked" },
+        "failures": { "type": "array", "items": { "type": "string" }, "description": "2-4 major decisions that failed" }
+      }
+    },
+    "computed": {
+      "type": "object",
+      "description": "DERIVED at build time from scored_actions + rubric.json. Never hand-entered.",
+      "properties": {
+        "dimensions": { "type": "object", "description": "dimension_id -> 0-100" },
+        "headline":   { "type": "integer", "minimum": 0, "maximum": 100 },
+        "tier":       { "type": "string" }
+      }
+    }
+  },
+  "$comment": "LIVE-EVENT HOOK (not built in v1): a news event is { event_id, headline, date, scored_actions[], sources[] } -- identical scored_action shape -- scored by the same lib against the same indicators.json. Do not build the pipeline now; the shape is reserved."
+}

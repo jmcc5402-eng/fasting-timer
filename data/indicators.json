@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-07-18",
+  "note": "The Action / Indicator Catalog. Weights are pre-committed: severity is fixed before we know who triggers an indicator. 'form' is 'condition' (a standing state of affairs -> LEVEL) or 'action' (a discrete move -> CHANGE). 'repeatable' indicators may fire multiple times so incremental captures accumulate. This same schema scores a future news event: an event is one 'action' indicator with a source and a date.",
+  "indicators": [
+    { "id": "rol-01", "dimension": "rule_of_law", "form": "condition", "severity": "extreme",  "repeatable": false, "text": "No independent judicial review of executive action exists." },
+    { "id": "rol-02", "dimension": "rule_of_law", "form": "action",    "severity": "severe",   "repeatable": false, "text": "Defy or ignore a binding court ruling." },
+    { "id": "rol-03", "dimension": "rule_of_law", "form": "action",    "severity": "extreme",  "repeatable": false, "text": "Purge, pack, or forcibly retire judges to shape outcomes." },
+    { "id": "rol-04", "dimension": "rule_of_law", "form": "action",    "severity": "severe",   "repeatable": true,  "text": "Strip courts of jurisdiction over a class of executive acts." },
+    { "id": "rol-05", "dimension": "rule_of_law", "form": "action",    "severity": "moderate", "repeatable": true,  "text": "Route cases from independent courts to loyal special tribunals." },
+    { "id": "rol-06", "dimension": "rule_of_law", "form": "action",    "severity": "moderate", "repeatable": false, "text": "Curtail habeas corpus or core due-process guarantees." },
+    { "id": "rol-07", "dimension": "rule_of_law", "form": "action",    "severity": "micro",    "repeatable": true,  "text": "Condition a single court's budget or appointments to pressure it." },
+    { "id": "rol-08", "dimension": "rule_of_law", "form": "action",    "severity": "minor",    "repeatable": true,  "text": "Publicly threaten a specific judge over a pending ruling." },
+
+    { "id": "ele-01", "dimension": "electoral", "form": "condition", "severity": "extreme",  "repeatable": false, "text": "No competitive national election for the head of power exists." },
+    { "id": "ele-02", "dimension": "electoral", "form": "action",    "severity": "extreme",  "repeatable": false, "text": "Abolish or indefinitely postpone elections." },
+    { "id": "ele-03", "dimension": "electoral", "form": "action",    "severity": "severe",   "repeatable": false, "text": "Remove or override term limits to extend own tenure." },
+    { "id": "ele-04", "dimension": "electoral", "form": "action",    "severity": "severe",   "repeatable": true,  "text": "Ban or disqualify a major opposition party or candidate." },
+    { "id": "ele-05", "dimension": "electoral", "form": "action",    "severity": "severe",   "repeatable": false, "text": "Seize control of the election authority or alter the count." },
+    { "id": "ele-06", "dimension": "electoral", "form": "action",    "severity": "extreme",  "repeatable": false, "text": "Refuse or reverse a peaceful transfer of power." },
+    { "id": "ele-07", "dimension": "electoral", "form": "action",    "severity": "moderate", "repeatable": true,  "text": "Gerrymander or redraw districts to entrench a majority." },
+    { "id": "ele-08", "dimension": "electoral", "form": "action",    "severity": "minor",    "repeatable": true,  "text": "Raise registration or ballot barriers targeting opposition voters." },
+
+    { "id": "prs-01", "dimension": "press", "form": "condition", "severity": "extreme",  "repeatable": false, "text": "No independent mass media operates; information is state-controlled." },
+    { "id": "prs-02", "dimension": "press", "form": "action",    "severity": "severe",   "repeatable": true,  "text": "Shut down or nationalize an independent outlet." },
+    { "id": "prs-03", "dimension": "press", "form": "action",    "severity": "severe",   "repeatable": true,  "text": "Jail or prosecute a journalist for reporting." },
+    { "id": "prs-04", "dimension": "press", "form": "action",    "severity": "severe",   "repeatable": false, "text": "Impose prior censorship or an internet / communications shutdown." },
+    { "id": "prs-05", "dimension": "press", "form": "action",    "severity": "moderate", "repeatable": true,  "text": "Force a critical outlet into allied ownership." },
+    { "id": "prs-06", "dimension": "press", "form": "action",    "severity": "minor",    "repeatable": true,  "text": "Use a libel or 'fake news' law to fine or silence a critic." },
+    { "id": "prs-07", "dimension": "press", "form": "action",    "severity": "micro",    "repeatable": true,  "text": "Condition one outlet's license, ad revenue, or access to shape its coverage." },
+
+    { "id": "civ-01", "dimension": "civil_liberties", "form": "condition", "severity": "severe",   "repeatable": false, "text": "Assembly, protest, and movement require state permission and are routinely denied." },
+    { "id": "civ-02", "dimension": "civil_liberties", "form": "action",    "severity": "extreme",  "repeatable": false, "text": "Mass detention of civilians without trial." },
+    { "id": "civ-03", "dimension": "civil_liberties", "form": "action",    "severity": "severe",   "repeatable": false, "text": "Impose a state of emergency suspending civil rights." },
+    { "id": "civ-04", "dimension": "civil_liberties", "form": "action",    "severity": "moderate", "repeatable": true,  "text": "Ban or violently disperse an opposition assembly or protest." },
+    { "id": "civ-05", "dimension": "civil_liberties", "form": "action",    "severity": "moderate", "repeatable": false, "text": "Criminalize a broad category of dissent (e.g. 'insulting the state')." },
+    { "id": "civ-06", "dimension": "civil_liberties", "form": "action",    "severity": "moderate", "repeatable": true,  "text": "Use foreign-funding or registration rules to shut down civil-society groups." },
+    { "id": "civ-07", "dimension": "civil_liberties", "form": "action",    "severity": "micro",    "repeatable": true,  "text": "Surveil, harass, or administratively restrict a specific activist or NGO." },
+
+    { "id": "chk-01", "dimension": "checks", "form": "condition", "severity": "extreme",  "repeatable": false, "text": "No legislature or judiciary is able to constrain the executive." },
+    { "id": "chk-02", "dimension": "checks", "form": "action",    "severity": "extreme",  "repeatable": false, "text": "Dissolve the legislature." },
+    { "id": "chk-03", "dimension": "checks", "form": "action",    "severity": "severe",   "repeatable": true,  "text": "Rule by decree, bypassing the legislature." },
+    { "id": "chk-04", "dimension": "checks", "form": "action",    "severity": "severe",   "repeatable": true,  "text": "Invoke emergency powers beyond their lawful scope or duration." },
+    { "id": "chk-05", "dimension": "checks", "form": "action",    "severity": "moderate", "repeatable": true,  "text": "Strip an oversight body (auditor, ombudsman, inspector) of independence." },
+    { "id": "chk-06", "dimension": "checks", "form": "action",    "severity": "moderate", "repeatable": true,  "text": "Seize a subnational or federal power for the central executive." },
+    { "id": "chk-07", "dimension": "checks", "form": "action",    "severity": "micro",    "repeatable": true,  "text": "Quietly expand a regulator's discretion to reward or punish firms." },
+
+    { "id": "int-01", "dimension": "integrity", "form": "condition", "severity": "extreme",  "repeatable": false, "text": "The state routinely imprisons or kills for political reasons." },
+    { "id": "int-02", "dimension": "integrity", "form": "action",    "severity": "extreme",  "repeatable": false, "text": "Systematic violence targeting an ethnic, religious, or political group." },
+    { "id": "int-03", "dimension": "integrity", "form": "action",    "severity": "extreme",  "repeatable": true,  "text": "Extrajudicial killing or forced disappearance." },
+    { "id": "int-04", "dimension": "integrity", "form": "action",    "severity": "severe",   "repeatable": true,  "text": "Imprison a political rival or opposition leader." },
+    { "id": "int-05", "dimension": "integrity", "form": "action",    "severity": "severe",   "repeatable": false, "text": "Use torture in state detention." },
+    { "id": "int-06", "dimension": "integrity", "form": "action",    "severity": "moderate", "repeatable": true,  "text": "Revoke citizenship or force a critic into exile." },
+    { "id": "int-07", "dimension": "integrity", "form": "action",    "severity": "minor",    "repeatable": true,  "text": "Bring a selective prosecution to harass an opponent." }
+  ]
+}
