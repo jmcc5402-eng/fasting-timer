@@ -112,6 +112,11 @@
         { "title": "Moscow trials", "url": "https://en.wikipedia.org/wiki/Moscow_trials", "publisher": "Wikipedia" }
       ] }
   ],
+  "harm": {
+    "rating": 96,
+    "confidence": "medium",
+    "basis": "Great Terror executions (~700,000+), the Gulag system, and the 1932-33 famine; total excess deaths are estimated in the millions, with figures and intent contested among historians."
+  },
   "competence": {
     "rating": 82,
     "wins": [

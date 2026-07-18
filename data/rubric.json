@@ -33,6 +33,18 @@
     "scored": false,
     "note": "Competence is tracked as its own field and is NEVER folded into the headline number. A highly effective authoritarian is more dangerous, but competence is not itself authoritarian."
   },
+  "harm": {
+    "scored": false,
+    "label": "Scale of Harm",
+    "note": "A SEPARATE 0-100 estimate of the breadth of documented harm -- people killed, imprisoned, displaced, or persecuted -- NEVER folded into the headline. The headline measures concentration of power, not body count; two figures can share a near-maximal concentration score while differing enormously in scale of harm (e.g. a small brutal regime vs. an industrialized genocide). This axis is an editorial estimate anchored to sourced figures, flagged with confidence; it is deliberately coarse and comparative, not a precise casualty count.",
+    "anchors": [
+      { "range": "0-20",   "meaning": "Repression without mass killing: jailings, exile, isolated deaths." },
+      { "range": "21-45",  "meaning": "Thousands to tens of thousands killed/imprisoned; broad persecution." },
+      { "range": "46-70",  "meaning": "Tens of thousands to hundreds of thousands killed or displaced." },
+      { "range": "71-90",  "meaning": "Hundreds of thousands to low millions; mass atrocity." },
+      { "range": "91-100", "meaning": "Millions killed; industrialized genocide or society-wide catastrophe." }
+    ]
+  },
   "scoring": {
     "dimension_score": "Diminishing-returns (noisy-OR) combination of triggered indicators. Each indicator's severity is read as p = points/100, the fraction of the REMAINING freedom in that dimension it removes; independent actions combine as score = 100 * (1 - product(1 - p)). One Severe act lands ~50, two ~68, a true Extreme ~85; a dimension only nears 100 with real breadth. This keeps a few severe actions from saturating the scale and preserves resolution between hybrids and totalitarians.",
     "headline_score": "Equal-weighted mean of the six dimension scores (each 1/6).",

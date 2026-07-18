@@ -57,6 +57,15 @@
         "failures": { "type": "array", "items": { "type": "string" }, "description": "2-4 major decisions that failed" }
       }
     },
+    "harm": {
+      "type": "object",
+      "description": "Scale of Harm -- tracked SEPARATELY, never folded into the headline. An editorial 0-100 estimate of the breadth of documented harm; see rubric.json 'harm' for anchors.",
+      "properties": {
+        "rating":     { "type": "integer", "minimum": 0, "maximum": 100 },
+        "confidence": { "type": "string", "enum": ["high", "medium", "low"] },
+        "basis":      { "type": "string", "description": "one line anchoring the estimate to sourced figures" }
+      }
+    },
     "computed": {
       "type": "object",
       "description": "DERIVED at build time from scored_actions + rubric.json. Never hand-entered.",

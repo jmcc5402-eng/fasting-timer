@@ -12,6 +12,11 @@
   },
   "editor_note": "The elected-then-eroded HYBRID template — the closest historical rhyme to modern backsliding, and the model future news events will map onto. Per matching discipline the researcher did NOT fire the prs-01 or rol-01 extremes: Serbia kept a real (harassed) independent-media sector and courts that occasionally ruled against the regime, so those domains were dominated, not near-totally captured. ele-06 fires for the attempt to reverse the 2000 result. int-02 rests on the ICTY indictment and co-accused convictions (his own trial ended without verdict at his 2006 death).",
   "scored_actions": [
+    { "indicator_id": "rol-03", "date": "1996-2000", "note": "Courts staffed with regime-aligned judges served as instruments of power: electoral commissions and courts annulled opposition victories (1996 local elections) and the Federal Constitutional Court annulled the September 2000 result to keep him in office. Judicial capture was substantial though not absolute (some rulings still went against the regime), hence medium confidence.", "count": 1, "confidence": "medium",
+      "sources": [
+        { "title": "1996 Serbian local elections", "url": "https://en.wikipedia.org/wiki/1996_Serbian_local_elections", "publisher": "Wikipedia" },
+        { "title": "Overthrow of Slobodan Milošević", "url": "https://en.wikipedia.org/wiki/Overthrow_of_Slobodan_Milo%C5%A1evi%C4%87", "publisher": "Wikipedia" }
+      ] },
     { "indicator_id": "chk-06", "date": "1989-03", "note": "In March 1989 Milosevic's Serbia forced constitutional amendments stripping the autonomous provinces of Kosovo and Vojvodina of control over police, courts, education, and language, centralizing their powers in Belgrade.", "count": 1, "confidence": "high",
       "sources": [ { "title": "Autonomy Abolished: How Milosevic Launched Kosovo's Descent into War", "url": "https://balkaninsight.com/2020/03/23/autonomy-abolished-how-milosevic-launched-kosovos-descent-into-war/", "publisher": "Balkan Insight" }, { "title": "Slobodan Milosevic", "url": "https://www.britannica.com/biography/Slobodan-Milosevic", "publisher": "Encyclopaedia Britannica" } ] },
     { "indicator_id": "ele-05", "date": "1996-11", "note": "After the Zajedno opposition won 32 municipalities including Belgrade in the Nov 1996 local elections, regime-controlled electoral commissions and courts annulled the results; the OSCE confirmed the opposition had in fact won.", "count": 2, "confidence": "high",
@@ -39,6 +44,11 @@
     { "indicator_id": "int-03", "date": "1999-01-15", "note": "Serbian police/FRY forces killed some 45 Kosovo Albanian civilians at Racak on 15 Jan 1999 (charged by the ICTY); on 11 Apr 1999 opposition editor Slavko Curuvija was assassinated in Belgrade in a killing linked to state security.", "count": 2, "confidence": "medium",
       "sources": [ { "title": "Prosecution Case — Kosovo (Racak)", "url": "https://www.icty.org/en/content/prosecution-case-kosovo", "publisher": "ICTY" }, { "title": "Slavko Curuvija", "url": "https://cpj.org/data/people/slavko-curuvija/", "publisher": "Committee to Protect Journalists" } ] }
   ],
+  "harm": {
+    "rating": 65,
+    "confidence": "medium",
+    "basis": "The 1999 Kosovo campaign forcibly deported ~800,000 Albanians and killed thousands; deaths across the wider Yugoslav wars run into the tens of thousands, though Milosevic's direct personal responsibility was contested and his trial ended without verdict."
+  },
   "competence": {
     "rating": 62,
     "wins": [

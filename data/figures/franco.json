@@ -49,6 +49,11 @@
     { "indicator_id": "int-05", "date": "1939-1959", "note": "Torture of detainees in police and prison custody was widely documented as part of the regime's post-war repression apparatus.", "count": 1, "confidence": "medium",
       "sources": [ { "title": "Francoist Spain", "url": "https://en.wikipedia.org/wiki/Francoist_Spain", "publisher": "Wikipedia" } ] }
   ],
+  "harm": {
+    "rating": 52,
+    "confidence": "medium",
+    "basis": "White Terror executions estimated from ~30,000 to ~150,000 (contested) and hundreds of thousands imprisoned under the Law of Political Responsibilities during the consolidation years."
+  },
   "competence": {
     "rating": 82,
     "wins": [

@@ -88,6 +88,11 @@
         { "title": "The question of genocide and Cambodia's Muslims", "url": "https://www.aljazeera.com/news/2015/11/19/the-question-of-genocide-and-cambodias-muslims", "publisher": "Al Jazeera" }
       ] }
   ],
+  "harm": {
+    "rating": 95,
+    "confidence": "medium",
+    "basis": "Roughly 1.5-2 million deaths from execution, forced labor, starvation, and disease -- about a fifth of Cambodia's population, the highest proportional toll of any modern regime."
+  },
   "competence": {
     "rating": 32,
     "wins": [

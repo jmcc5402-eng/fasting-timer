@@ -39,6 +39,11 @@
     { "indicator_id": "int-04", "date": "1661-1664", "note": "Louis had his powerful finance superintendent Nicolas Fouquet arrested (5 Sep 1661) as a rival; when the special court sentenced only banishment (1664), the king overrode it to impose life imprisonment at Pignerol, where Fouquet died in 1680.", "count": 1, "confidence": "medium",
       "sources": [ { "title": "Nicolas Fouquet", "url": "https://www.britannica.com/biography/Nicolas-Fouquet", "publisher": "Encyclopaedia Britannica" } ] }
   ],
+  "harm": {
+    "rating": 38,
+    "confidence": "low",
+    "basis": "The dragonnades and 1685 revocation of the Edict of Nantes coerced the conversion of 300,000-400,000 Huguenots and drove ~200,000 into exile; direct killings were lower and war-driven famine deaths largely indirect."
+  },
   "competence": {
     "rating": 63,
     "wins": [

@@ -62,6 +62,11 @@
         { "title": "Sobre antiperonismo y radicalizacion politica: el estado de guerra interno (1951-1955)", "url": "https://www.scielo.org.ar/scielo.php?pid=S1851-28792020000300139&script=sci_arttext&tlng=es", "publisher": "SciELO Argentina" }
       ] }
   ],
+  "harm": {
+    "rating": 15,
+    "confidence": "medium",
+    "basis": "Jailing of opposition figures and documented torture of some detainees, but no mass killing or large-scale displacement."
+  },
   "competence": {
     "rating": 67,
     "wins": [

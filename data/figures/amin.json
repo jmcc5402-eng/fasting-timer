@@ -59,6 +59,11 @@
     { "indicator_id": "int-06", "date": "1972-08", "note": "Amin ordered the expulsion of roughly 80,000 Ugandan Asians within 90 days and cancelled outstanding citizenship applications (~12,000), forcing many into statelessness and exile.", "count": 1, "confidence": "high",
       "sources": [ { "title": "Expulsion of Asians from Uganda", "url": "https://en.wikipedia.org/wiki/Expulsion_of_Asians_from_Uganda", "publisher": "Wikipedia" }, { "title": "Ugandan Asians: 50 years since their expulsion", "url": "https://lordslibrary.parliament.uk/ugandan-asians-50-years-since-their-expulsion-from-uganda/", "publisher": "UK House of Lords Library" } ] }
   ],
+  "harm": {
+    "rating": 60,
+    "confidence": "medium",
+    "basis": "Estimated 80,000-500,000 killed (widely contested) by the security organs, plus ~80,000 Asians expelled -- a very high toll relative to Uganda's ~11 million population."
+  },
   "competence": {
     "rating": 15,
     "wins": [

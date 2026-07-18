@@ -84,6 +84,11 @@
         { "title": "Liu Shaoqi", "url": "https://www.britannica.com/biography/Liu-Shaoqi", "publisher": "Encyclopaedia Britannica" }
       ] }
   ],
+  "harm": {
+    "rating": 97,
+    "confidence": "medium",
+    "basis": "The Great Leap Forward famine (~30-45 million deaths, the largest in absolute terms though famine-driven) plus campaign and Cultural Revolution deaths in the hundreds of thousands to millions. Tolls and intent are contested."
+  },
   "competence": {
     "rating": 42,
     "wins": [

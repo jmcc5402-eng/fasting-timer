@@ -57,6 +57,11 @@
     { "indicator_id": "int-06", "date": "1973-1990", "note": "Thousands of opponents were expelled or barred from returning, and some were stripped of Chilean nationality (e.g., Orlando Letelier, 1976).", "count": 1, "confidence": "high",
       "sources": [ { "title": "Human rights abuses in Chile under Augusto Pinochet", "url": "https://en.wikipedia.org/wiki/Human_rights_abuses_in_Chile_under_Augusto_Pinochet", "publisher": "Wikipedia" } ] }
   ],
+  "harm": {
+    "rating": 33,
+    "confidence": "high",
+    "basis": "The Rettig and Valech commissions documented ~3,000 killed or disappeared and ~38,000 political prisoners, most tortured, plus tens of thousands driven into exile."
+  },
   "competence": {
     "rating": 52,
     "wins": [

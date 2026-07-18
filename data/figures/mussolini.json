@@ -61,6 +61,11 @@
     { "indicator_id": "int-01", "date": "1926-1943", "note": "The state routinely imprisoned (Special Tribunal, confino) and executed political opponents; the Special Tribunal handed down death sentences for anti-Fascism.", "count": 1, "confidence": "high",
       "sources": [ { "title": "OVRA", "url": "https://en.wikipedia.org/wiki/OVRA", "publisher": "Wikipedia" } ] }
   ],
+  "harm": {
+    "rating": 50,
+    "confidence": "low",
+    "basis": "Domestic killing was limited (Special Tribunal death sentences, confino), but colonial atrocities in Libya and the 1935-37 conquest of Ethiopia (poison gas, reprisals, camps) killed hundreds of thousands -- which dominates his scale of harm."
+  },
   "competence": {
     "rating": 42,
     "wins": [
