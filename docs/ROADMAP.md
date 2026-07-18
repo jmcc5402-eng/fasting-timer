@@ -78,3 +78,39 @@ Open questions for next session:
 - Do we make a dedicated, pre-committed "Election Integrity Watch" surface, or fold election events
   into the normal government trajectory?
 - US-first vs. keep the global frame during the election (global frame is extra neutrality cover).
+
+## Further roadmap / backlog (user-added)
+
+### A. Auto-sourced historical context per live event (click-through precedents)
+When we score a news event, don't stop at our own corpus parallel — also run a web search for
+OTHER similar actions in history and surface them as a deeper layer the reader can click into from
+the headline score, for detail and context.
+- **Value:** turns each score into a mini history lesson ("banning an opposition party — here are
+  documented instances: Germany 1933, others"), deepening credibility and education beyond our 11
+  curated figures.
+- **Two tiers:** (1) our CORPUS parallel — curated, scored, already computed (`parallels` field);
+  (2) BROADER web-sourced precedents — illustrative context, generated on demand.
+- **Guardrails (non-negotiable):** these precedents are CONTEXT, never part of the score (the
+  number stays from the pre-committed rubric). Same sourcing bar as everything else (verifiable,
+  credible). Search by the neutral indicator definition to avoid cherry-picking a leaning set.
+  Cache per event (cost discipline — never re-run the same search).
+- **Risk:** web precedents can be uneven/wrong and picking them is itself a selection surface —
+  mitigate with the sourcing bar + indicator-driven (not vibe-driven) search.
+
+### B. Open scoring matrix with knobs (adjustable weights/severities)
+Let users adjust the dimensions' weights and severity values to their own perceptions and watch
+scores recompute — radical transparency + engagement.
+- **Why it's powerful for the core mission:** you can't credibly say "your weights are biased" if
+  you can set your OWN and see the conclusions barely move. Best sub-feature: a **sensitivity
+  view** showing the RANK ORDER is robust across wide weight settings (Stalin stays top, hybrids
+  stay mid). That stability is a devastating rebuttal to bias accusations — arguably a headline
+  trust feature, not just a toy.
+- **The key tension + resolution:** this collides with Principle 4 (pre-commit + publish the
+  weights). Resolution: keep ONE canonical, pre-committed **official score** — the immovable number
+  journalists cite — and layer a clearly-watermarked **personal/sandbox view** on top ("your
+  settings," never passable as the site's score). Never let a custom view masquerade as official.
+- **Architecture is already ready:** `rubric.json` is data and `lib/score.mjs` / `lib/trajectory.mjs`
+  are pure functions of (data, rubric). Swap in a user-modified rubric → everything recomputes
+  instantly. So the knobs are technically cheap; the work is UI + guardrails, not engine.
+- **Risk:** people tune to confirm bias and screenshot "under MY settings X is 90" as
+  disinformation — mitigate with visible watermarking + the official number always shown alongside.
